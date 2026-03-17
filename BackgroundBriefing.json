@@ -1,0 +1,204 @@
+{
+  "title": "Background Briefing: Oxygen Therapy in Acute Care (Non-ICU)",
+  "metadata": {
+    "updated_from_sources": [
+      "BTS 2017",
+      "TSANZ 2022",
+      "ACI COVID algorithm",
+      "Beasley et al. 2019",
+      "Cousins et al. 2020"
+    ]
+  },
+  "sections": {
+    "philosophy_of_oxygen_therapy": {
+      "quotes": [
+        {
+          "text": "Oxygen is a treatment for hypoxaemia, not breathlessness.",
+          "source": "BTS 2017 / TSANZ 2022"
+        }
+      ],
+      "summary": "Oxygen should be prescribed to a target saturation range, avoiding hypoxaemia and hyperoxaemia. 'Swimming between the flags' refers to titrating oxygen only as needed."
+    },
+
+    "risks": {
+      "hypoxaemia": [
+        "SpO2 < 90% or PaO2 < 60 mmHg leads to tissue hypoxia and organ dysfunction",
+        "Brain most sensitive: impairment ~65% SaO2; unconsciousness ~55%",
+        "SpO2 < 90% predicts mortality",
+        "Hypoxaemia is a marker of severity and an independent risk factor"
+      ],
+      "hyperoxaemia": [
+        "Worsened V/Q mismatch",
+        "Absorption atelectasis",
+        "Oxidative stress causing tissue injury",
+        "Masks clinical deterioration",
+        "Meta-analysis: Liberal O2 increases mortality by 21%"
+      ],
+      "oxygen_induced_hypercapnia": {
+        "mechanisms": [
+          "V/Q mismatch",
+          "Reduced ventilatory drive",
+          "Haldane effect",
+          "Absorption atelectasis",
+          "Increased airway resistance",
+          "Rebreathing at low mask flows"
+        ],
+        "not_exclusive_to": [
+          "COPD",
+          "Asthma",
+          "Pneumonia",
+          "Obesity hypoventilation",
+          "Cystic fibrosis"
+        ]
+      }
+    },
+
+    "target_spo2_ranges": [
+      {
+        "group": "Most acute medical patients",
+        "target_spo2": ["94–98% (BTS)", "92–96% (TSANZ)"],
+        "initiate_oxygen_below": ["94% (BTS)", "92% (TSANZ)"]
+      },
+      {
+        "group": "Hypercapnia-risk groups (COPD, CF, obesity, neuromuscular disease, bronchiectasis)",
+        "target_spo2": "88–92%",
+        "initiate_oxygen_below": "88%"
+      },
+      {
+        "group": "Palliative care",
+        "target_spo2": "Clinical judgement",
+        "initiate_oxygen": "Symptom benefit or SpO2 < 90%"
+      },
+      {
+        "group": "Paraquat/Bleomycin poisoning",
+        "target_spo2": "85–88%",
+        "initiate_oxygen_below": "85%"
+      },
+      {
+        "group": "Carbon monoxide poisoning",
+        "target_spo2": "100%",
+        "initiate_oxygen": "Always (reservoir mask)"
+      },
+      {
+        "group": "Cluster headache",
+        "target_spo2": "Aim for relief",
+        "initiate_oxygen": "≥12 L/min reservoir mask"
+      }
+    ],
+
+    "oxygen_as_a_prescribed_medication": {
+      "key_points": [
+        "Oxygen is a Schedule 4 medication",
+        "Prescribe target saturation, not fixed flow",
+        "Document device, flow, target range, escalation criteria",
+        "Never withhold oxygen in emergencies"
+      ],
+      "compliance_findings": [
+        "Only 57% had valid prescription (BTS audit)",
+        "Australian data similar (Cousins et al.)"
+      ]
+    },
+
+    "device_selection": {
+      "devices": [
+        {
+          "name": "Nasal cannulae (low flow)",
+          "fio2": "0.24–0.35",
+          "flow_rate": "1–4 L/min",
+          "indications": "Most patients, comfortable"
+        },
+        {
+          "name": "Nasal cannulae (higher flow)",
+          "fio2": "Up to 0.50",
+          "flow_rate": "5–6 L/min",
+          "indications": "Medium concentration"
+        },
+        {
+          "name": "Simple face mask",
+          "fio2": "0.35–0.60",
+          "flow_rate": "5–10 L/min",
+          "caution": "Avoid <5 L/min due to rebreathing"
+        },
+        {
+          "name": "Venturi mask",
+          "fio2": "0.24–0.60",
+          "flow_rate": "Device dependent",
+          "indications": "Precise FiO2, hypercapnia risk"
+        },
+        {
+
+          "name": "Reservoir mask",
+          "fio2": ">0.60",
+          "flow_rate": "15 L/min",
+          "indications": "Severe hypoxaemia"
+        },
+        {
+          "name": "High-flow nasal cannula",
+          "fio2": "0.21–1.0",
+          "flow_rate": "Up to 70 L/min",
+          "indications": "Acute hypoxaemic respiratory failure"
+        }
+      ]
+    },
+
+    "initiation_algorithm": {
+      "steps": [
+        "If critically ill → Reservoir mask 15 L/min",
+        "If hypercapnia risk → 88–92% target; start Venturi 24–28% or nasal 1–2 L/min; obtain ABG",
+        "If SpO2 < 85% → Reservoir mask",
+        "If SpO2 85–91% → Nasal cannulae 2–4 L/min",
+        "If SpO2 ≥ 92% → No oxygen unless indicated"
+      ]
+    },
+
+    "titration_and_monitoring": {
+      "rules": [
+        "Wait 5 minutes after each adjustment",
+        "Increase if below target; decrease if above target",
+        "Oxygen is not preventative for future deterioration",
+        "Record device + flow on every observation"
+      ],
+      "abg_indications": [
+        "Critical illness",
+        "SpO2 < 92% or requiring oxygen",
+        "Increasing O2 requirement",
+        "Hypercapnia risk",
+        "Diagnostic uncertainty"
+      ]
+    },
+
+    "escalation_thresholds": [
+      {
+        "fio2": "≥0.40",
+        "action": "Senior clinician review"
+      },
+      {
+        "fio2": "≥0.50",
+        "action": "ICU review"
+      }
+    ],
+
+    "special_conditions_hypercapnia": {
+      "target": "88–92%",
+      "rules": [
+        "Use 24% or 28% Venturi or nasal 1–2 L/min",
+        "Increase Venturi flow by up to 50% if RR > 30",
+        "ABG within 30–60 minutes",
+        "Consider NIV if pH < 7.35 and PaCO2 > 6.0 kPa",
+        "Do not stop oxygen abruptly"
+      ],
+      "applicable_to": [
+        "OHS",
+        "Cystic fibrosis",
+        "Kyphoscoliosis",
+        "Neuromuscular disease",
+        "Bronchiectasis"
+      ]
+    },
+
+    "weaning": {
+      "steps": [
+        "Reduce when SpO2 above target for 4–8 hrs",
+        "Wean to 2 L/min before stopping (typical)",
+        "Hypercapnia-risk patients may require 1 L/min or 24% Venturi"]
+	}
