@@ -1,0 +1,386 @@
+{
+  "assessmentId": "hetidh-scenario-oxygentherapy-v1",
+  "title": "Oxygen Therapy & Escalation: Scenario-Based MCQs",
+  "version": "1.0.0",
+  "language": "en-AU",
+  "items": [
+    {
+      "order": 1,
+      "scenario": {
+        "id": "scn-bruce-001",
+        "stem": {
+          "default": "Bruce is a 65-year-old male admitted with pneumonia. He has no relevant medical history.\n\nBetween 1900h and 0100h, Bruce’s pulse oximetry readings on room air are 94–95%. His observations are in the normal range, and he is not in respiratory distress. You conduct an A–G assessment, but do not call a clinical review.\n\nBruce is reported as sleeping well, but wakes at 0200h complaining of chest discomfort. His oxygen saturation is 88% and he has a low-grade temperature."
+        }
+      },
+      "question": {
+        "id": "q-bruce-001",
+        "type": "mcma",
+        "prompt": { "default": "Which of the following actions do you take? Select all that apply." },
+        "options": [
+          {
+            "id": "A",
+            "text": { "default": "Administer low-flow supplemental oxygen therapy" },
+            "rationale": { "default": "Hypoxaemia (SpO₂ 88%) warrants immediate oxygen therapy per local protocol." }
+          },
+          {
+            "id": "B",
+            "text": { "default": "Continue to monitor and take observations" },
+            "rationale": { "default": "Monitoring is necessary but not sufficient; escalation is required due to hypoxaemia and chest discomfort." }
+          },
+          {
+            "id": "C",
+            "text": { "default": "Conduct a systematic assessment" },
+            "rationale": { "default": "Reassess ABCDE/A–G to identify deterioration and guide interventions." }
+          },
+          {
+            "id": "D",
+            "text": { "default": "Call the rapid response team for a senior clinician review" },
+            "rationale": { "default": "Meets common escalation criteria (SpO₂ < 90% and chest pain/discomfort)." }
+          }
+        ],
+        "correctAnswers": ["A", "B","C", "D"],
+        "feedback": {
+          "correct": { "default": "Bruce's oxygen saturation is falling and his oxygen requirement is rising. This may be a sign of deterioration and peri-arrest. You need to: - call the rapid response team for a senior clinician review - administer low-flow supplemental oxygen therapy - conduct a systematic assessment - continue to monitor and take observations. Key message: Treat oxygen saturation as a vital sign: - measure it with a pulse oximeter - document it in patient records." },
+          "partiallyCorrect": { "default": "Close. Ensure you intervene (oxygen), monitor, reassess, and escalate for rapid review." },
+          "incorrect": { "default": "Not quite. Hypoxaemia with chest discomfort requires oxygen, continual observation, systematic reassessment, and rapid escalation." }
+        },
+        "scoring": { "points": 1, "partialCredit": "proportional" },
+        "shuffleOptions": true,
+        "difficulty": "medium"
+      },
+      "lockScenario": true
+    },
+    {
+      "order": 2,
+      "scenario": {
+        "id": "scn-john-001",
+        "stem": {
+          "default": "John is a 68-year-old male admitted with pneumonia. He has no relevant medical history.\n\nBetween 1900h and 0100h, John's pulse oximetry readings on room air are 94–95%. He is reported as sleeping well with no signs of breathlessness.\n\nAt 0300h, his oxygen saturation decreases to 88%. He has a low-grade temperature and complains of chest discomfort. You call the rapid response team, conduct a systematic assessment and administer supplemental oxygen therapy."
+        }
+      },
+      "question": {
+        "id": "q-john-001",
+        "type": "mcsa",
+        "prompt": { "default": "Which oxygen therapy do you select?" },
+        "options": [
+          {
+            "id": "A",
+            "text": { "default": "2–4 L/min via nasal cannulae" },
+            "rationale": { "default": "May be insufficient for SpO₂ 88% in acute hypoxaemia; delivers a relatively low FiO₂." }
+          },
+          {
+            "id": "B",
+            "text": { "default": "5–10 L/min via simple mask" },
+            "rationale": { "default": "Appropriate immediate therapy for moderate hypoxaemia without COPD risk; provides higher FiO₂ (approx. 0.4–0.6) and is rapidly available." }
+          },
+          {
+            "id": "C",
+            "text": { "default": "5–10 L/min via Venturi mask" },
+            "rationale": { "default": "Venturi masks are useful when precise FiO₂ control is required (e.g., CO₂ retainers). Not mandatory here given no COPD risk and need for rapid oxygenation." }
+          }
+        ],
+        "correctAnswers": ["A"],
+        "feedback": {
+          "correct": { "default": "Correct. John has low oxygen saturation. You need to administer low-flow oxygen therapy at 2 - 4 L/min with the preferred delivery device being standard nasal cannulae. Do not administer therapy that delivers a greater concentration of oxygen (such as a simple face-mask or venturi mask at 5 - 10 L/min). This could result in unresolved hypoxaemia and John's further decline. Key message: Administer low-flow oxygen therapy when a patient's SPO2 <92%. Titrate therapy to a target range of 92 - 96%" },
+          "incorrect": { "default": "Not quite. John has low oxygen saturation. You need to administer low-flow oxygen therapy at 2 - 4 L/min with the preferred delivery device being standard nasal cannulae. Do not administer therapy that delivers a greater concentration of oxygen (such as a simple face-mask or venturi mask at 5 - 10 L/min). This could result in unresolved hypoxaemia and John's further decline. Key message: Administer low-flow oxygen therapy when a patient's SPO2 <92%. Titrate therapy to a target range of 92 - 96%" }
+        },
+        "scoring": { "points": 1, "partialCredit": "all-or-nothing" },
+        "shuffleOptions": true,
+        "difficulty": "medium"
+      },
+      "lockScenario": true
+    },
+    {
+      "order": 3,
+      "scenario": {
+        "id": "scn-mary-001",
+        "stem": {
+          "default": "Mary is 34 years old and in her second trimester of pregnancy. She is admitted to hospital with influenza.\n\nMary's oxygen saturation is 90%, so is given supplemental oxygen therapy at 4 L/min via nasal cannulae. Her oxygen saturation target range is 92–96%. However, the therapy fails to raise her oxygen saturation to the target range.\n\nMary’s therapy is changed to 6 L/min via simple face-mask (approximately FiO₂ 40%). Her oxygen saturation is in the yellow zone, and her increasing oxygen requirement is of concern.\n\nWhich action do you take?"
+        }
+      },
+      "question": {
+        "id": "q-mary-001",
+        "type": "mcsa",
+        "prompt": { "default": "Which action do you take?" },
+        "options": [
+          {
+            "id": "A",
+            "text": { "default": "Increase oxygen flow to 8 L/min to raise oxygen saturation" },
+            "rationale": { "default": "Increasing flow alone risks delaying appropriate escalation when a pregnant patient is not meeting targets and oxygen needs are rising." }
+          },
+          {
+            "id": "B",
+            "text": { "default": "Call the rapid response team for a senior clinician review" },
+            "rationale": { "default": "Persistent hypoxaemia with increasing O₂ requirement in pregnancy warrants urgent escalation for senior review to optimise maternal and fetal oxygenation and assess for deterioration." }
+          },
+          {
+            "id": "C",
+            "text": { "default": "Continue the current therapy to maintain oxygen saturation" },
+            "rationale": { "default": "Observation without escalation is inappropriate given failure to reach target range and concern about rising oxygen requirement." }
+          }
+        ],
+        "correctAnswers": ["B"],
+        "feedback": {
+          "correct": { "default": "Correct. Mary's increasing oxygen requirement indicates clinical deterioration and hypoxaemia. You need to call for an immediate clinical review. Do not simply continue Mary's current oxygen therapy. Oxygen therapy to maintain saturation above 90% is an additional red-zone criterion. Do not simply increase the oxygen flow-rate, as you may mask deterioration and compromise both Mary and her foetus. Key message Call an immediate senior clinician review when a patient needs FiO2 > 40% (such as >6 L/min via simple face-mask). Further information Mary's clinical review must include consultation with an obstetric specialist." },
+          "incorrect": { "default": "Not quite. Mary's increasing oxygen requirement indicates clinical deterioration and hypoxaemia. You need to call for an immediate clinical review. Do not simply continue Mary's current oxygen therapy. Oxygen therapy to maintain saturation above 90% is an additional red-zone criterion. Do not simply increase the oxygen flow-rate, as you may mask deterioration and compromise both Mary and her foetus. Key message Call an immediate senior clinician review when a patient needs FiO2 > 40% (such as >6 L/min via simple face-mask). Further information Mary's clinical review must include consultation with an obstetric specialist." }
+        },
+        "scoring": { "points": 1, "partialCredit": "all-or-nothing" },
+        "shuffleOptions": true,
+        "difficulty": "medium"
+      },
+      "lockScenario": true
+    },
+    {
+      "order": 4,
+      "scenario": {
+        "id": "scn-sue-001",
+        "stem": {
+          "default": "Sue is a 40-year-old at-term pregnant female, admitted to hospital with influenza.\n\nShe is transferred to a ward. Her oxygen saturation is 85%, so is given supplemental oxygen therapy at 6 L/min via simple face-mask. Her oxygen saturation target range is 92–96%.\n\nYou call the rapid response team. They monitor Sue, and find that her oxygen therapy fails to raise her saturation to the target range.\n\nWhich action do you take?"
+        }
+      },
+      "question": {
+        "id": "q-sue-001",
+        "type": "mcsa",
+        "prompt": { "default": "Which action do you take?" },
+        "options": [
+          {
+            "id": "A",
+            "text": { "default": "Change delivery device to a non-rebreather mask; continue to observe" },
+            "rationale": { "default": "Increases delivered FiO₂, but 'observe' alone is insufficient for persistent severe hypoxaemia in pregnancy; escalation is required." }
+          },
+          {
+            "id": "B",
+            "text": { "default": "Increase oxygen flow to 10 L/min; refer to intensive care" },
+            "rationale": { "default": "Prioritises rapid improvement in oxygenation and definitive escalation for advanced support in a deteriorating, at-term pregnant patient." }
+          },
+          {
+            "id": "C",
+            "text": { "default": "Measure arterial blood gases" },
+            "rationale": { "default": "ABGs aid assessment, but should not delay urgent escalation and higher oxygen delivery when targets are not met." }
+          }
+        ],
+        "correctAnswers": ["B"],
+        "feedback": {
+          "correct": { "default": "Correct. Sue's oxygen saturation is below her target range. You need to increase the oxygen flow-rate and refer her to intensive care. Do not measure Sue's arterial blood gases, as you may compromise her and her foetus. Do not change delivery device to a non-rebreather mask and continue to observe, as this may result in Sue becoming hypoxaemic. Key message Refer your patient to intensive care when they need FiO2>50% (such as >8 L/min via a simple face-mask) to maintain adequate saturation. Further information Sue's clinical review must include consultation with an obstetric specialist." },
+          "incorrect": { "default": "Not quite. Sue's oxygen saturation is below her target range. You need to increase the oxygen flow-rate and refer her to intensive care. Do not measure Sue's arterial blood gases, as you may compromise her and her foetus. Do not change delivery device to a non-rebreather mask and continue to observe, as this may result in Sue becoming hypoxaemic. Key message Refer your patient to intensive care when they need FiO2>50% (such as >8 L/min via a simple face-mask) to maintain adequate saturation. Further information Sue's clinical review must include consultation with an obstetric specialist." }
+        },
+        "scoring": { "points": 1, "partialCredit": "all-or-nothing" },
+        "shuffleOptions": true,
+        "difficulty": "medium"
+      },
+      "lockScenario": true
+    },
+    {
+      "order": 5,
+      "scenario": {
+        "id": "scn-daniel-001",
+        "stem": {
+          "default": "Daniel is a 78-year-old male admitted with cellulitis in the lower right leg. He is morbidly obese. He has a history of sleep apnoea; his oxygen saturation decreases when he is sleeping.\n\nDaniel's pulse oximeter readings are between 88 and 90%. You suspect that he has hypoxaemia, so call the rapid response team.\n\nWhich action do the team take to confirm Daniel’s suspected hypoxaemia?"
+        }
+      },
+      "question": {
+        "id": "q-daniel-001",
+        "type": "mcsa",
+        "prompt": { "default": "Which action do the team take to confirm Daniel’s suspected hypoxaemia?" },
+        "options": [
+          {
+            "id": "A",
+            "text": { "default": "Measure arterial blood gases" },
+            "rationale": { "default": "ABGs provide definitive measurement but are invasive and should follow confirmation that the pulse oximetry reading itself is reliable." }
+          },
+          {
+            "id": "B",
+            "text": { "default": "Measure venous blood gases" },
+            "rationale": { "default": "Venous gases do not provide an accurate measure of oxygenation and cannot reliably confirm hypoxaemia." }
+          },
+          {
+            "id": "C",
+            "text": { "default": "Reposition the pulse oximeter probe; monitor oxygen saturation" },
+            "rationale": { "default": "First confirm the accuracy of pulse oximetry, especially in obesity or low perfusion states, by repositioning or replacing the probe and rechecking saturation trends." }
+          }
+        ],
+        "correctAnswers": ["A"],
+        "feedback": {
+          "correct": { "default": "Correct. Daniel's pulse oximetry readings are unreliable. To confirm whether he has hypoxaemia, the rapid response team needs to take his arterial blood gases (ABG). Key message: Measure your patient's ABG when they have: - cardiorespiratory or metabolic dysfunction and are critically ill - oxygen saturation less than 92% - decreasing oxygen saturation requiring increased FiO2 - breathlessness with unreliable pulse oximetry readings - risk of hypercapnia. Warning Do not remove a patient's oxygen delivery device when measuring their arterial blood gas. You may cause profound hypoxaemia.Further information Further information: Daniel's ABG test measures his arterial oxygen (PaO2) and arterial carbon dioxide (PaCO2). The results determine his level of hypoxaemia and the appropriate management. Consider non-invasive ventilation (NIV) if his results show he has respiratory acidosis." },
+          "incorrect": { "default": "Not quite. Daniel's pulse oximetry readings are unreliable. To confirm whether he has hypoxaemia, the rapid response team needs to take his arterial blood gases (ABG). Key message: Measure your patient's ABG when they have: - cardiorespiratory or metabolic dysfunction and are critically ill - oxygen saturation less than 92% - decreasing oxygen saturation requiring increased FiO2 - breathlessness with unreliable pulse oximetry readings - risk of hypercapnia. Warning Do not remove a patient's oxygen delivery device when measuring their arterial blood gas. You may cause profound hypoxaemia.Further information Further information: Daniel's ABG test measures his arterial oxygen (PaO2) and arterial carbon dioxide (PaCO2). The results determine his level of hypoxaemia and the appropriate management. Consider non-invasive ventilation (NIV) if his results show he has respiratory acidosis." }
+        },
+        "scoring": { "points": 1, "partialCredit": "all-or-nothing" },
+        "shuffleOptions": true,
+        "difficulty": "easy"
+      },
+      "lockScenario": true
+    },
+    {
+      "order": 6,
+      "scenario": {
+        "id": "scn-james-001",
+        "stem": {
+          "default": "James is a 62-year-old male admitted with pneumonia. He has a history of chronic obstructive pulmonary disease (COPD).\n\nNursing staff record that he is sleeping comfortably.\n\nTaking into account his COPD, what is James's oxygen saturation target range?"
+        }
+      },
+      "question": {
+        "id": "q-james-001",
+        "type": "mcsa",
+        "prompt": { "default": "What is James’s target oxygen saturation range?" },
+        "options": [
+          {
+            "id": "A",
+            "text": { "default": "88–92%" },
+            "rationale": { "default": "This is the recommended target range for patients with COPD to avoid oxygen-induced hypercapnia." }
+          },
+          {
+            "id": "B",
+            "text": { "default": "92–96%" },
+            "rationale": { "default": "This range is appropriate for most adults without COPD, but may risk CO₂ retention in COPD patients." }
+          },
+          {
+            "id": "C",
+            "text": { "default": "96–100%" },
+            "rationale": { "default": "High oxygen saturations can be dangerous in COPD due to risk of oxygen-induced hypercapnia." }
+          }
+        ],
+        "correctAnswers": ["A"],
+        "feedback": {
+          "correct": { "default": "Correct. James has COPD, which puts him at risk of hypercapnia. Guidelines state that his oxygen saturation target range is 88 - 92%. Key message Administer oxygen therapy when a patient's SpO2 < 88% and they have a condition associated with chronic respiratory failure. Titrate therapy to a target range of 88 - 92%. Further information James also needs an air-driven bronchodilator or metered dose inhaler +/- spacer." },
+          "incorrect": { "default": "Not quite. James has COPD, which puts him at risk of hypercapnia. Guidelines state that his oxygen saturation target range is 88 - 92%. Key message Administer oxygen therapy when a patient's SpO2 < 88% and they have a condition associated with chronic respiratory failure. Titrate therapy to a target range of 88 - 92%. Further information James also needs an air-driven bronchodilator or metered dose inhaler +/- spacer." }
+        },
+        "scoring": { "points": 1, "partialCredit": "all-or-nothing" },
+        "shuffleOptions": true,
+        "difficulty": "easy"
+      },
+      "lockScenario": true
+    },
+    {
+      "order": 7,
+      "scenario": {
+        "id": "scn-raymond-001",
+        "stem": {
+          "default": "Raymond is a 53-year-old male with a history of obesity hypoventilation syndrome (OHS). For three years, he has used non-invasive ventilation (NIV) for nocturnal sleep and early afternoon naps of about two hours. He has been admitted to hospital with a respiratory infection.\n\nRaymond continues his NIV routine in hospital. When he is not using NIV, his oxygen saturation falls to 84–88% on room air. His morning arterial blood gas readings on room air are pH 7.42, PaCO₂ 49 mmHg, PaO₂ 58 mmHg, bicarbonate 31 mmol/L, SaO₂ 90%.\n\nWhich oxygen therapies best suit Raymond when he is not using NIV?\n(Select two)"
+        }
+      },
+      "question": {
+        "id": "q-raymond-001",
+        "type": "mcma",
+        "prompt": { "default": "Which oxygen therapies best suit Raymond when he is not using NIV? (Select two)" },
+        "options": [
+          {
+            "id": "A",
+            "text": { "default": "2 L/min via nasal cannulae" },
+            "rationale": { "default": "Low-flow oxygen provides a small increase in FiO₂ while minimising risk of CO₂ retention in OHS." }
+          },
+          {
+            "id": "B",
+            "text": { "default": "Venturi mask at 50%" },
+            "rationale": { "default": "Provides high FiO₂ and risks worsening hypercapnia; not recommended for OHS." }
+          },
+          {
+            "id": "C",
+            "text": { "default": "Venturi mask at 24–28%" },
+            "rationale": { "default": "Delivers controlled low FiO₂ suitable for patients at risk of oxygen-induced hypercapnia." }
+          },
+          {
+            "id": "D",
+            "text": { "default": "4 L/min via simple face-mask" },
+            "rationale": { "default": "Uncontrolled FiO₂ delivery; increases risk of CO₂ retention in OHS." }
+          }
+        ],
+        "correctAnswers": ["A", "D"],
+        "feedback": {
+          "correct": { "default": "Correct. Raymond has OHS, which puts him at risk of hypercapnic respiratory failure. You need to administer low-flow oxygen therapy, either: - nasal cannulae at 1 - 2 L/min - venturi mask at 24 - 28% Do not administer therapy that delivers a greater concentration of oxygen (such as a simple face-mask at 4 L/min or venturi mask at 50%). You may over-oxygenate Raymond and increase his risk of acute respiratory failure and death. Key message Administer low-flow oxygen therapy when a patient is at risk of hypercapnic respiratory failure. Use a controlled delivery device, such as nasal cannula or a venturi mask." },
+          "partiallyCorrect": { "default": "Raymond has OHS, which puts him at risk of hypercapnic respiratory failure. You need to administer low-flow oxygen therapy, either: - nasal cannulae at 1 - 2 L/min - venturi mask at 24 - 28% Do not administer therapy that delivers a greater concentration of oxygen (such as a simple face-mask at 4 L/min or venturi mask at 50%). You may over-oxygenate Raymond and increase his risk of acute respiratory failure and death. Key message Administer low-flow oxygen therapy when a patient is at risk of hypercapnic respiratory failure. Use a controlled delivery device, such as nasal cannula or a venturi mask." }
+        },
+        "scoring": { "points": 1, "partialCredit": "proportional" },
+        "shuffleOptions": true,
+        "difficulty": "medium"
+      },
+      "lockScenario": true
+    },
+    {
+      "order": 8,
+      "scenario": {
+        "id": "scn-frank-001",
+        "stem": {
+          "default": "Frank is a 62-year-old male with a history of chronic obstructive pulmonary disease (COPD). He is admitted to hospital with pneumonia.\n\nFrank is receiving supplemental oxygen therapy at 1 L/min via nasal cannulae. He is showing signs of respiratory distress 24 hours after admission. You increase oxygen flow to 2 L/min and call the rapid response team.\n\nFrank’s arterial blood gas readings indicate hypoxic hypercapnia and respiratory failure (pH 7.30, PaCO₂ 60, PaO₂ 50, SaO₂ 85%).\n\nWhich actions should the rapid response team take?\n(Select all that apply)"
+        }
+      },
+      "question": {
+        "id": "q-frank-001",
+        "type": "mcma",
+        "prompt": { "default": "Which actions should the rapid response team take? (Select all that apply)" },
+        "options": [
+          {
+            "id": "A",
+            "text": { "default": "Refer to intensive care" },
+            "rationale": { "default": "Frank is in acute hypercapnic respiratory failure requiring specialist management and potential escalation of ventilatory support." }
+          },
+          {
+            "id": "B",
+            "text": { "default": "Increase oxygen flow; commence non-invasive ventilation" },
+            "rationale": { "default": "NIV is first-line therapy for acute hypercapnic respiratory failure in COPD and should be initiated urgently with controlled oxygen supplementation." }
+          },
+          {
+            "id": "C",
+            "text": { "default": "Change oxygen therapy to 100% via a non-rebreather reservoir mask" },
+            "rationale": { "default": "High-FiO₂ therapy risks rapidly worsening CO₂ retention and should be avoided in COPD with hypercapnic failure." }
+          },
+          {
+            "id": "D",
+            "text": { "default": "Administer continuous salbutamol" },
+            "rationale": { "default": "Continuous salbutamol does not address ventilatory failure and may worsen tachycardia and CO₂ retention." }
+          }
+        ],
+        "correctAnswers": ["A", "B"],
+        "feedback": {
+          "correct": { "default": "Correct. Frank has hypercapnic respiratory failure. You need to increase his oxygen flow and commence non-invasive ventilation (NIV). Key message Consider ventilation when a patient has hypercapnic respiratory failure (defined as arterial pH <7.35 and PaCO2> 45mmHg). Further information If Frank is given ventilatory support, he needs to be in a monitored bed or close-observation unit." },
+          "partiallyCorrect": { "default": "Frank has hypercapnic respiratory failure. You need to increase his oxygen flow and commence non-invasive ventilation (NIV). Key message Consider ventilation when a patient has hypercapnic respiratory failure (defined as arterial pH <7.35 and PaCO2> 45mmHg). Further information If Frank is given ventilatory support, he needs to be in a monitored bed or close-observation unit." },
+          "incorrect": { "default": "Not quite. Frank has hypercapnic respiratory failure. You need to increase his oxygen flow and commence non-invasive ventilation (NIV). Key message Consider ventilation when a patient has hypercapnic respiratory failure (defined as arterial pH <7.35 and PaCO2> 45mmHg). Further information If Frank is given ventilatory support, he needs to be in a monitored bed or close-observation unit." }
+        },
+        "scoring": { "points": 1, "partialCredit": "proportional" },
+        "shuffleOptions": true,
+        "difficulty": "medium"
+      },
+      "lockScenario": true
+    },
+    {
+      "order": 9,
+      "scenario": {
+        "id": "scn-gina-001",
+        "stem": {
+          "default": "Gina is 40 years old with a history of angina. She is admitted to hospital with chest pain.\n\nGina's oxygen saturation is 86%; she is in respiratory distress. You call the rapid response team, commence supplemental oxygen therapy at 4 L/min via nasal cannulae and conduct an A–G assessment.\n\nTaking into account Gina's cardiac history, the rapid response team alters her yellow-zone oxygen saturation calling criteria to <92%. Her oxygen requirements are not discussed at shift handover.\n\nGina's oxygen saturation rises to 92%. She removes her delivery device to go to the toilet, but does not replace it afterwards. Her oxygen saturation falls.\n\nHow can you ensure that Gina's oxygen therapy is uninterrupted?\n(Select all that apply)"
+        }
+      },
+      "question": {
+        "id": "q-gina-001",
+        "type": "mcma",
+        "prompt": { "default": "How can you ensure that Gina's oxygen therapy is uninterrupted? (Select all that apply)" },
+        "options": [
+          {
+            "id": "A",
+            "text": { "default": "Prescribe oxygen therapy in the medication chart" },
+            "rationale": { "default": "A formal prescription clarifies device, flow/FiO₂, target range, and weaning/escalation parameters, ensuring accountability and continuity." }
+          },
+          {
+            "id": "B",
+            "text": { "default": "Document oxygen therapy in the healthcare record" },
+            "rationale": { "default": "Clear documentation of indications, targets, device, and recent response supports consistent delivery and safety checks." }
+          },
+          {
+            "id": "C",
+            "text": { "default": "Discuss oxygen requirements during clinical handover" },
+            "rationale": { "default": "Explicitly communicates current oxygen needs, targets, and calling criteria so incoming staff maintain therapy and monitor for deterioration." }
+          }
+        ],
+        "correctAnswers": ["A", "B", "C"],
+        "feedback": {
+          "correct": { "default": "Correct. To ensure Gina's oxygen therapy is continuous, you need to: - prescribe oxygen therapy on her medication chart - document oxygen therapy in her healthcare record - discuss her oxygen requirements during clinical handover. Key message: Prescribe, document and discuss your patient's supplemental oxygen therapy. Further information: Supplemental oxygen therapy is considered a drug. Record the following on Gina's medication chart: - delivery device - oxygen flow-rate - oxygen saturation target range - oxygen saturation and FiO2 rate that require a clinical review. When Gina's calling criteria change, document: - new criteria in her Standard Adult General Observation (SAGO) chart - rationale in her progress notes - delivery device, oxygen flow-rate, oxygen saturation target range, and frequency of observations in her management plan. Supplemental oxygen therapy is not indicated in the treatment of acute coronary syndrome, stroke or conditions associated with reversible ischemia, unless the patient has signs of hypoxaemia." },
+          "partiallyCorrect": { "default": "Partially correct. To ensure Gina's oxygen therapy is continuous, you need to: - prescribe oxygen therapy on her medication chart - document oxygen therapy in her healthcare record - discuss her oxygen requirements during clinical handover. Key message: Prescribe, document and discuss your patient's supplemental oxygen therapy. Further information: Supplemental oxygen therapy is considered a drug. Record the following on Gina's medication chart: - delivery device - oxygen flow-rate - oxygen saturation target range - oxygen saturation and FiO2 rate that require a clinical review. When Gina's calling criteria change, document: - new criteria in her Standard Adult General Observation (SAGO) chart - rationale in her progress notes - delivery device, oxygen flow-rate, oxygen saturation target range, and frequency of observations in her management plan. Supplemental oxygen therapy is not indicated in the treatment of acute coronary syndrome, stroke or conditions associated with reversible ischemia, unless the patient has signs of hypoxaemia." },
+          "incorrect": { "default": "Not quite. To ensure Gina's oxygen therapy is continuous, you need to: - prescribe oxygen therapy on her medication chart - document oxygen therapy in her healthcare record - discuss her oxygen requirements during clinical handover. Key message: Prescribe, document and discuss your patient's supplemental oxygen therapy. Further information: Supplemental oxygen therapy is considered a drug. Record the following on Gina's medication chart: - delivery device - oxygen flow-rate - oxygen saturation target range - oxygen saturation and FiO2 rate that require a clinical review. When Gina's calling criteria change, document: - new criteria in her Standard Adult General Observation (SAGO) chart - rationale in her progress notes - delivery device, oxygen flow-rate, oxygen saturation target range, and frequency of observations in her management plan. Supplemental oxygen therapy is not indicated in the treatment of acute coronary syndrome, stroke or conditions associated with reversible ischemia, unless the patient has signs of hypoxaemia." }
+        },
+        "scoring": { "points": 1, "partialCredit": "proportional" },
+        "shuffleOptions": true,
+        "difficulty": "easy"
+      },
+      "lockScenario": true
+    }
+  ]
+}
