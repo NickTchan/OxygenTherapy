@@ -1,0 +1,138 @@
+{
+  "request_metadata": {
+    "request_id": 232,
+    "title": "Oxygen management for adults in acute care facilities",
+    "requested_by": "Allison Tyndall",
+    "organisation": "Northern Sydney LHD",
+    "contact": {
+      "position": "Respiratory CNC",
+      "email": "Allison.Tyndall@health.nsw.gov.au"
+    },
+    "document_classification": "OFFICIAL: Sensitive – NSW Government"
+  },
+  "learning_need_context": {
+    "theme": "Clinical Practice",
+    "target_audience": {
+      "primary": [
+        "All Nursing staff responsible for patients in acute care facilities",
+        "All Medical staff responsible for patients in acute care facilities",
+        "Midwifery staff responsible for patients in acute care facilities",
+        "Physiotherapy staff working with patients who may have oxygen in situ"
+      ],
+      "setting": "Acute care facilities (mandatory training); also useful for primary health sector (e.g., HITH, CDCRS)",
+      "scope": "All Nursing, Midwifery, and Medical staff (and some Physiotherapy staff) employed by NSW Health",
+      "exclusions": "Intubated, mechanically ventilated patients"
+    },
+    "learning_need_description": "Not to be confused with the MyHealthLearning module: Oxygen therapy in acutely ill adults (Q stream spaced learning, currently unavailable). This proposed module would provide current, evidence-based education to address widespread misunderstandings about oxygen management.",
+    "priority_rationale": [
+      "Almost all acutely unwell patients require supplemental oxygen at some point",
+      "Oxygen is like a drug: risks associated with administration; mismanagement can lead to avoidable harm or death",
+      "Common mismanagement due to lack of understanding and false assumption that oxygen is safe",
+      "Supported by Subject Matter Experts across respiratory and patient deterioration roles",
+      "Complacency around oxygen management is real; education often not prioritised unless post-adverse event",
+      "Need for easily accessible, evidence-based, consistent messaging across LHDs/facilities",
+      "MyHealthLearning platform is familiar to clinicians; completion would be trackable by educators/managers"
+    ],
+    "barriers_to_current_performance": [
+      "No formal requirement for oxygen management training",
+      "No consistent method of education delivery",
+      "No consistent, formal oxygen prescription across LHDs",
+      "Complacency and false conception that oxygen is a safe drug",
+      "Misunderstanding particularly regarding use in hypercapnia",
+      "Incidents of delayed escalation due to overreliance on SpO2 monitoring ('oxygen creep')"
+    ]
+  },
+  "expected_learning_outcomes": {
+    "knowledge_and_skills": [
+      "Understand common terms: hypoxia, hypoxaemia, hypercapnia, hyperoxia",
+      "Understand 'concentration of oxygen' and FiO2",
+      "Understand different oxygen delivery devices, minimum/maximum flow rates, and why misuse is unsafe",
+      "Know when to reference L/min vs FiO2 for different devices",
+      "Understand rationale for oxygen prescribing and interpretation (including maximum dose before escalation)",
+      "Ensure consistency across NSW, especially for rotating Junior Medical Officers",
+      "Understand rationale for altering Between the Flags (BTF) calling criteria, including prescribing upper limits for weaning",
+      "Recognise indication for oxygen supplementation: only for hypoxia",
+      "Understand that oxygen does not treat breathlessness; know alternative strategies",
+      "Considerations for entraining oxygen through home CPAP/BiPAP devices (optional/advanced)"
+    ],
+    "practice_improvement": [
+      "Change culture and management of oxygen where past recommendations have failed",
+      "Provide trackable, ideally mandatory resource for nurses and junior doctors",
+      "Reduce avoidable harm and adverse outcomes:",
+      "  - Reduced need for closer observation, HDU/ICU transfer",
+      "  - Reduced hospital length of stay and hospital-acquired complications",
+      "  - Reduced patient/family distress, financial burden, system costs",
+      "  - Prevention of temporary/permanent disability or death"
+    ],
+    "patient_benefits": [
+      "Upskilled workforce improves safety and quality of clinical practice",
+      "Consistent, evidence-based guidance across NSW",
+      "Better management of deteriorating patients requiring oxygen",
+      "Prevention of avoidable harm and suffering from oxygen mismanagement"
+    ],
+    "local_performance_agreement_alignment": [
+      "Reduce Hospital Acquired Complications:",
+      "  - Pressure-related injury from device mismanagement (prolonged supplemental oxygen)",
+      "  - Fall-related injuries secondary to hypoxia/hypercapnia/altered consciousness",
+      "  - Infection risk from prolonged length of stay",
+      "  - Respiratory complications: respiratory compromise, failure, pneumonia associated with oxygen administration"
+    ],
+    "strategic_alignment": {
+      "framework": "Future Health: Strategic Framework 2022-2032",
+      "outcomes": [
+        {
+          "goal": "Safe care is delivered across all settings",
+          "objective": "2.1 Deliver safe, high quality reliable care for patients in hospital and other settings",
+          "contribution": "Evidence-based, consistent education aligned with TSANZ Position Statement; reduces unwarranted clinical variation, improves safety, reduces adverse incidents"
+        },
+        {
+          "goal": "Our staff are engaged and well supported",
+          "objective": "4.4 Equip our people with the skills and capabilities to be an agile, responsive workforce",
+          "contribution": "Accessible, evidence-based resource addressing different learning styles; addresses critical but misunderstood intervention"
+        }
+      ]
+    }
+  },
+  "current_training_resources": {
+    "existing_mhl_modules": "None currently cover this topic",
+    "reference_materials": [
+      {
+        "title": "Thoracic Society of Australia and New Zealand (TSANZ) Position Statement on Acute Oxygen Use in Adults: 'Swimming between the flags' (2022)",
+        "url": "https://onlinelibrary.wiley.com/doi/10.1111/resp.14218",
+        "notes": "TSANZ may have additional resources available on request"
+      }
+    ],
+    "supporting_frameworks": [
+      "TSANZ Position Statement (above)",
+      "ACI Respiratory Network (potential collaboration)",
+      "Ministry of Health: awareness of formal oxygen requirements under SDPR; buy-in for mandatory module status"
+    ],
+    "subject_matter_experts": [
+      {
+        "name": "Allison Tyndall",
+        "role": "Requester, Respiratory CNC",
+        "availability": "Happy to assist if required"
+      },
+      {
+        "name": "Mary Roberts",
+        "role": "Respiratory CNC, Westmead",
+        "expertise": "Nursing input; video resource on breathlessness management"
+      },
+      {
+        "name": "Professor Gregory King",
+        "role": "Respiratory Physician, RNSH",
+        "expertise": "Medical input"
+      },
+      {
+        "name": "A/Prof Jimmy Chien",
+        "role": "Respiratory Physician, Westmead",
+        "expertise": "Medical input"
+      }
+    ]
+  },
+  "additional_notes": [
+    "Requester has not yet discussed this application with listed clinicians",
+    "Module should avoid confusion between facilities, especially for rotating JMOs",
+    "Content should be accessible, evidence-based, and support consistent messaging statewide"
+  ]
+}
