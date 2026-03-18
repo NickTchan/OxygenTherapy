@@ -1,0 +1,82 @@
+{
+  "questions": {
+    "timestamp": "n/a",
+    "question_1": "What conditions in the real world (environment or system) create challenges for clinicians in providing safe patient outcomes when providing oxygen therapy including high flow oxygen?",
+    "question_2": "In which parts of high flow oxygen and oxygen therapy do clinicians have the biggest knowledge gaps (e.g. assessment, device setup, titration, monitoring, escalation)?",
+    "question_3": "What do clinicians need to practice more when it comes to high flow oxygen and oxygen therapy?",
+    "question_4": "What improvements in how clinicians perform high flow oxygen and oxygen therapy do you most want to see?",
+    "question_5": "What single ‘aha moment’ would make the biggest difference to clinicians’ approach to high flow oxygen and oxygen therapy if included in a short online module?",
+    "question_6": "What existing useful resources or reference materials could support clinicians in adopting best practices (e.g., guidelines, videos, case studies, key messages)?"
+  },
+
+  "responses": [
+    {
+      "timestamp": "09/03/2026 12:15",
+      "question_1": "1) Understanding when to utilise HFOT v standard Low flow O2 therapy LFOT.\n2) Clearly articulated prescriptions for O2 therapy.\n3) Weaning of HFOT\n4) Utilising O2 therapy in complex patients e.g with an acute respiratory exacerbation with a known background of Type 2 respiratory failure",
+      "question_2": "assessment\ntitration of HFOT\ndevice setup and cleaning\ntrouble shooting / managing patient cares - e.g rainout / discomfort / hot humid air flow",
+      "question_3": "setup / titration / monitoring / removal and cleaning / recording usage",
+      "question_4": "basic understanding of respiratory failure\nknowledge of the therapy - how it works, indications , contraindications. \nknowledge of the machine technology and trouble shooting e.g. rainout , interfaces.\nproviding patient education",
+      "question_5": "that not all patients on oxygen therapy require HFOT but there are those who when it is utilised benefit greatly from it it",
+      "question_6": "clinical practice guidelines. video tutorial. videos on machine setup / use / cleaning."
+    },
+    {
+      "timestamp": "10/03/2026 06:30",
+      "question_1": "Lack of understanding of indications (People don't know what they don't know) - clinicians and patients\nDifferent brand of flow meters causing confusing\nLace of infrastructure for delivery of hi flow oxygen in the community\nLace of knowledge of home devices",
+      "question_2": "Knowledge gaps depend on area. Use of terminology incorrectly used interchangeably, lack of knowledge re potential harms, benefits and risks of different devices, safe transfer of patients whilst on therapy",
+      "question_3": "Depends on clinical area. Knowledge varies",
+      "question_4": "Weaning and up titrating dependent on patient response\nActioning deterioration appropriately",
+      "question_5": "Signs and symptoms of hypoxaemia and hypercapnia",
+      "question_6": "TSANZ 'Swimming between the flags' guidleines (Barnett A, Beasley R, Buchan C, Chien J, Farah CS, King G, McDonald CF, Miller B, Munsif M, Psirides A, Reid L, Roberts M, Smallwood N, Smith S. Thoracic Society of Australia and New Zealand Position Statement on Acute Oxygen Use in Adults: 'Swimming between the flags'. Respirology. 2022 Apr;27(4):262-276. doi: 10.1111/resp.14218. Epub 2022 Feb 17. PMID: 35178831; PMCID: PMC9303673.);  BTS Oxygen guidelines (https://www.brit-thoracic.org.uk/clinical-resources/guidelines/emergency-oxygen/), Barriers and facilitators - https://go.gale.com/ps/i.do?id=GALE%7CA638846886&v=2.1&it=r&u=usyd&p=AONE&aty=shibboleth and  Oxygen - a new look at an old therapy - Richard Beasley, Diane Mackle & Paul Young (2019) Oxygen: a new look at an old therapy, Journal of the Royal Society of New Zealand, 49:2, 126-142, DOI: 10.1080/03036758.2019.1566154"
+    },
+    {
+      "timestamp": "10/03/2026 17:25",
+      "question_1": "- Poor understanding of the dangers of oxygen\n     - No sense of hyperoxia\n     - Poor identification of clinical signs of rising CO2\n- Poor understanding of what \"concentration of oxygen\" means (many areas not exposed to FiO2 terminology)\n- Poor understanding of SpO2 targets (ie. target is the lower SpO2 limit eg. 92%, not the upper limit eg. 96%)\n\n- Poor understanding of minimum flow limits for specific devices, esp. WHY there is a limit (reduce CO2 rebreathing)\n- Re. high flow, the limitations will vary between sites. An opinion is that oxygen education overhaul and oxygen prescribing is required to safely expand high flow beyond critical care, respiratory and coronary care units. This is required because the concept of FiO2, gas mixture/concentration and high-flow needs to be understood.",
+      "question_2": "1. Dosing / setting SpO2 targets\n2. Escalation (BOTH increasing oxygen requirements AND failure to wean particularly in the post-op setting).\n3. Device setups and device limitations.",
+      "question_3": "Not sure. Setup of different devices vary depending on brand of product. Perhaps, titration of oxygen dose against prescribed parameters, using different delivery devices? Meaning, encourage clinicians to consider early transition to an adjustable venturi if simple face mask not able to be weaned to nasal cannula quickly.",
+      "question_4": "1. Understanding of dangers of oxygen, and thus to perform respiratory assessment regularly.\n2. Recognising early and late signs of hypercapnic respiratory failure, understand that an unconscious patient with SpO2 of 98% could have the oxygen turned down.\n3. Understanding limitations (eg. minimum flow rates) of oxygen delivery devices.",
+      "question_5": "Patient harm can result if we give too much oxygen or do not use oxygen delivery devices properly, resulting in hypercapnic respiratory failure. Oxygen is a Band-Aid while we figure out the cause of hypoxia. Supplemental oxygen is a gas mixture of pure oxygen and room air mixed together - the amount (or %) of oxygen inhaled is the 'concentration of oxygen' aka FiO2, the FiO2 is the 'dose' of oxygen.",
+      "question_6": "TSANZ Guidelines, BTS Guidelines."
+    },
+    {
+      "timestamp": "17/03/2026 14:25",
+      "question_1": "Lack of understanding of basic principles ie oxygen, humidfication and flow",
+      "question_2": "Understanding of what to set the flow rate at. Understanding of how to wean people off high flow",
+      "question_3": "Better understanding of the indications for high flow.",
+      "question_4": "An understanding that patients often don't need high flow for transport and that patients often don't need high flow at at all.",
+      "question_5": "getting an understand of the benefits of high flow (ie delivery of humified gas, relatively accurate delivery of oxygen, washing out anatomical deadspace) and potential generation of positive pressure with high flow rates)",
+      "question_6": "guidelines, case study and video"
+    },
+    {
+      "timestamp": "17/03/2026 21:46",
+      "question_1": "Bed availability with appropriate continuous oximetry monitoring, clinician experience and confidence, knowledge about oxygen concentration vs flow rate , ability to prescribe, integration os safety and early warning systems",
+      "question_2": "ALL AREAS!! People think they know but often do not",
+      "question_3": "1) Need to know oxygen therapy guidelines 2) need to have practical skills to set up 3 ) need to know how to titrate  FiO2 to target saturation range 4 ) need to know what flow rate to start at and how to titrate this 5) Need to know at which point to ask for clinical review if up titration is necessary 6) need to know how to wean 7) Need to know about early warning system integration 8) Practice regular prescription 9) Get into the habit of auditing",
+      "question_4": "1) Need to know oxygen therapy guidelines 2) need to have practical skills to set up 3 ) need to know how to titrate  FiO2 to target saturation range 4 ) need to know what flow rate to start at and how to titrate this 5) Need to know at which point to ask for clinical review if up titration is necessary 6) need to know how to wean 7) Need to know about early warning system integration 8) Practice regular prescription 9) Get into the habit of auditing",
+      "question_5": "Seriously, if you know about this topic, there is not one \"Aha moment\". I wish it were that simple and it worries me that there is an attempt to summarise High Flow oxygen therapy into a single soundbite.",
+      "question_6": "TSANZ Position Statement 2022 on acute oxygen use"
+    }
+  ],
+
+  "learning_outcomes": [
+    {
+      "id": "LO1",
+      "title": "Select & initiate oxygen delivery safely",
+      "text": "Select and initiate the appropriate oxygen delivery device and flow rate using patient assessment, prescribed target saturations, and understanding of FiO₂ requirements."
+    },
+    {
+      "id": "LO2",
+      "title": "Troubleshoot SpO₂ changes with clinical reasoning",
+      "text": "Investigate sudden changes in oxygen saturation, distinguish device-related issues from clinical deterioration, and take corrective action."
+    },
+    {
+      "id": "LO3",
+      "title": "Recognise & act on escalation triggers",
+      "text": "Recognise and respond appropriately to escalation triggers, including Between the Flags thresholds."
+    },
+    {
+      "id": "LO4",
+      "title": "Document oxygen therapy decisions",
+      "text": "Document initiation, titration, weaning, and escalation rationale clearly to support safe handover and accountability."
+    }
+  ]
+}
