@@ -39,7 +39,7 @@
     },
     {
       "screen_title": "The role of peripheral oxygen saturation in oxygen therapy",
-      "screen_content": "Defines what Joe's current SPo2 is telling us and what it isn't telling us. SpO₂ does not show how hard a patient is working to breathe, how effectively they are ventilating, or whether carbon dioxide is being removed. SpO₂ is a single data point — not a complete picture of respiratory status."
+      "screen_content": "Defines what Joe's current SPo2 is telling us and what it isn't telling us. SPo2 isn't as accurate as ABG, but treatment should not be delayed while waiting for an ABG. ABGs have patient costs, system costs and workflow costs, but they provide information that SpO2 cannot. SpO₂ <90% in most patients would trigger oxygen therapy. SpO₂ does not give a definitive measure of arterial oxygen levels. ABG gives definitive measures of PaO₂ (oxygen tension) and SaO₂. SpO₂ also does not show how hard a patient is working to breathe, how effectively they are ventilating, or whether carbon dioxide is being removed. SpO₂ is a single data point — not a complete picture of respiratory status. Pulse oximetry doesn't measure PaCO₂, is less accurate at lower saturations and cannot assess acid-base status. "
     },
     {
       "screen_title": "The clinical implications behind the numbers in oxygen therapy",
@@ -115,30 +115,34 @@
   "topic_id": 5,
   "topic": "Different types of devices",
   "screens": [
-    {
-      "screen_title": "An overview of oxygen delivery devices",
-      "screen_content": ""
+{
+      "screen_title": "Joe shows discomfort",
+      "screen_content": "Joe remains on a simple face mask at 4 L/min following initiation in Topic 3. His SpO2 has stabilised at 94%, but he reports difficulty speaking clearly and feels claustrophobic. You must evaluate whether his current device matches his clinical needs."
     },
-    {
-      "screen_title": "Flow, FiO₂, and device capabilities",
-      "screen_content": ""
-    },
-    {
-      "screen_title": "Device‑specific safety risks and clinical pitfalls",
-      "screen_content": ""
-    },
-    {
-      "screen_title": "Correct Placement, Fit, and Troubleshooting",
-      "screen_content": ""
-    },
-    {
-      "screen_title": "Patient Comfort, Tolerance, and Practical Use",
-      "screen_content": ""
-    },
-    {
-      "screen_title": "Documenting Oxygen Delivery: Device, Dose, and Target Range",
-      "screen_content": ""
-    }
+{
+        "screen_title": "An overview of oxygen delivery devices",
+        "screen_content": "[Content Focus] Frame around Joe's stable SpO2 vs mask discomfort. Introduce 4 categories: Low-flow/variable (cannula, simple mask), Fixed-performance (Venturi), High-flow/support (HFNC), Reservoir (NRB). Core message: Match device to FiO2 need, work of breathing, hypercapnia risk, and tolerance. [Rise Interaction] Block: Sorting Process. Drag 3 patient snapshots (including Joe) into correct device category buckets. Builds classification logic in ~30s."
+      },
+      {
+        "screen_title": "Flow, FiO2, and device capabilities",
+        "screen_content": "[Content Focus] Clarify: Flow rate ≠ delivered FiO2. Show how patient inspiratory demand + device design dictate actual concentration. Include capability table (Cannula: 1–6 L/24–44%, Simple mask: 5–10 L/40–60%, Venturi: fixed 24–60%, NRB: 10–15 L/60–90%+, HFNC: 20–60 L/21–100%). Flag Joe's 4 L/min on simple mask as sub-minimum (<5 L CO2 risk). Guide step-down vs step-up decision logic. [Rise Interaction] Block: Interactive Graphic + Accordion. Hover/click flow rates to reveal FiO2 ranges & safety thresholds. Add 'What happens if…?' micro-pop for Joe's sub-minimal flow. ~40s."
+      },
+      {
+        "screen_title": "Device‑specific safety risks and clinical pitfalls",
+        "screen_content": "[Content Focus] Detail device-specific hazards: Simple mask (<5 L = CO2 buildup, skin breakdown, communication barriers), NRB (bag collapse, valve failure, >4–6h limit), Venturi (clogged ports = wrong FiO2, false reassurance), HFNC (humidity failure, delayed escalation recognition). Link Joe's potential drowsiness/headache to device mismatch. [Rise Interaction] Block: Labeled Graphic (Hotspots). Tap 3 incorrectly set devices to identify hidden physiological traps. Builds visual troubleshooting in ~30s."
+      },
+      {
+        "screen_title": "Correct Placement, Fit, and Troubleshooting",
+        "screen_content": "[Content Focus] Delivery depends on fit/placement. Cannula (nares positioning, mouth breathing ↓FiO2), Masks (ports unobstructed, snug but not tight), NRB (bag 1/3–2/3 full). Include rapid troubleshooting for non-responding SpO2, skin breakdown, condensation. Note Joe's anxiety-driven mouth-breathing reduces cannula efficiency → requires 15–20 min monitor post-switch. [Rise Interaction] Block: Image with Click-to-Reveal. 'Fit or Fail?' hotspot activity: Tap 4 common placement errors to see correction. Quick pattern-recognition. ~25s."
+      },
+      {
+        "screen_title": "Patient Comfort, Tolerance, and Practical Use",
+        "screen_content": "[Content Focus] Comfort directly impacts compliance & clinical safety. Intolerance → intermittent hypoxia. Compare profiles: Cannula (high tolerance, allows eating/talking), Masks (lower, claustrophobia, heat, oral med difficulty), HFNC (generally good, bulky tubing). Validate Joe's intolerance as clinical, not preference. Decision: Switch to humidified nasal cannula 2–3 L/min. [Rise Interaction] Block: Scenario. 'Clinical Trade-Off' 2-path micro-branch: Low-demand comfort issue vs high-demand work of breathing. Learner selects device, gets immediate feedback on risk/benefit. ~20s."
+      },
+      {
+        "screen_title": "Documenting Oxygen Delivery: Device, Dose, and Target Range",
+        "screen_content": "[Content Focus] Prevent 'oxygen creep' via precise documentation. Required fields: device type, flow (L/min), FiO2 (if fixed), target SpO2 range, current sat, time, clinician. Call out unsafe phrasing ('O2 on mask'). Show Joe's compliant entry example. Emphasise: documentation = tracked clinical intervention, not task. [Rise Interaction] Block: Custom Quiz (Select Multiple). 'Doc Detective': 3 flawed chart entries vs 1 correct. Learner identifies errors, then sees ideal version. Fast recall builder. ~30s."
+      }
   ]
 },
   {
