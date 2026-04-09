@@ -1,0 +1,166 @@
+[
+  {
+  "topic_id": 0,
+  "topic": "Priming question",
+  "screens": [
+    {
+      "screen_title": "Joe enters the hospital",
+      "screen_content": "Age: 68, Context: Admitted to the general ward for observation, Baseline: Previously independent, no long‑term oxygen therapy, Role in curriculum: Primary longitudinal case used to illustrate safe, thoughtful oxygen use over time. Priming question that focuses learners on key concepts/ Oxygen is a drug prescribed to treat hypoxaemia, not symptoms/Oxygen has a defined therapeutic window and can cause harm/ Oxygen therapy requires active clinical judgement over time."
+    } 
+	  ]
+  },
+  {
+  "topic_id": 1,
+  "topic": "Introduction to oxygen therapy",
+  "screens": [
+	{"screen_title": "Joe's story progresses",
+      "screen_content": "Joe is breathless and anxious, but his oxygen saturation remains normal on room air. You pause to consider whether oxygen would treat the underlying problem — or risk treating the wrong one. Based on the information available so far, should oxygen therapy be started for Joe at this point?"
+    },
+	 {
+      "screen_title": "The purpose and limitations of oxygen therapy",
+      "screen_content": "Text takes us through rationale of not giving Joe oxygen at this stage, hitting following key points: Oxygen only treats hypoxaemia (low arterial blood oxygen). Oxygen therapy must be used to treat the right problem and oxygen does not treat his current indications. Oxygen has a defined therapeutic window and can cause harm. Oxygen therapy increases oxygen levels but does not improve ventilation or remove carbon dioxide."
+    },
+    {
+      "screen_title": "The role of clinical judgement in using oxygen therapy ",
+      "screen_content": "Joe doesn't yet have clinical indication of hypoxemia. Oxygen must be initiated with clinical indication of hypoxaemia. Oxygen has a range (therapeutic window). Too little or too much oxygen can cause patient harm or hide deterioration. Clinical judgement involves deciding when oxygen is needed, when it is not, and how it should be adjusted over time so patients receive the right dose, in the right range, for the right clinical context and duration. The goal is not “more oxygen”, but the right dose, in the right range for the clinical context and for the right duration. ABG: PaO₂ < 60 mmHg or Pulse oximetry: SpO₂ < 92%. There's no indication of need for ABG yet, and SpO2 is above target."
+    },
+    {
+      "screen_title": "Oxygen as a prescribed medication: getting the dose right",
+      "screen_content": "The dose of oxygen is determined by FiO2 (the concentration of oxygen delivered) and flow rate (how fast it is delivered). Dose is determined by device. Tolerance and efficiency is influenced by factors such as humidification. Later topics cover the dangers of under and over dosing."
+    }
+  ]
+},
+  {
+  "topic_id": 2,
+  "topic": "Core concepts in oxygen therapy",
+  "screens": [
+	  {"screen_title": "Joe's story - several hours later",
+      "screen_content": "Joe remains short of breath and anxious at times, with periods of rapid breathing. His oxygen saturation has stayed within the normal range on room air, with no sustained desaturation. This raises an important question; what is his SpO2 telling us and what doesn't it tell us?"
+    },
+    {
+      "screen_title": "The role of peripheral oxygen saturation in oxygen therapy",
+      "screen_content": "Defines what Joe's current SPo2 is telling us and what it isn't telling us. SpO₂ does not show how hard a patient is working to breathe, how effectively they are ventilating, or whether carbon dioxide is being removed. SpO₂ is a single data point — not a complete picture of respiratory status."
+    },
+    {
+      "screen_title": "The clinical implications behind the numbers in oxygen therapy",
+      "screen_content": "A normal SpO₂ does not necessarily mean a patient is stable. Patients like Joe can look adequately oxygenated while their breathing effort increases or their ventilation worsens.\n\nConversely, oxygen therapy can improve SpO₂ values without improving the underlying problem. When numbers improve but physiology does not, SpO₂ can falsely reassure and delay recognition of deterioration."
+    },
+    {
+  "screen_title": "When oxygen therapy can cause harm",
+  "screen_content": "Relying on SpO₂ alone to guide oxygen therapy can cause harm.\n\nGiving oxygen when SpO₂ is already adequate can lead to excessively high oxygen levels (hyperoxaemia), which may present with subtle but visible clinical signs and can mask ongoing disease processes.\n\nOxygen therapy does not improve ventilation. A patient may maintain normal or high SpO₂ while carbon dioxide rises, leading to visible signs such as drowsiness, headache, confusion, or reduced consciousness (hypercapnia).\n\nIncreasing oxygen to maintain a target SpO₂ can also conceal worsening respiratory function. This hidden deterioration, often referred to as oxygen creep, delays recognition of clinical decline.\n\nKey risk patterns to recognise: hyperoxaemia (visible signs), hypercapnia (visible signs), and oxygen creep (hidden deterioration)."
+}
+  ]
+},
+  {
+  "topic_id": 3,
+  "topic": "Monitoring oxygen therapy",
+  "screens": [
+    {
+      "screen_title": "Joe’s story – monitoring over time",
+      "screen_content": "Joe’s condition continues to evolve over the course of his admission. His oxygen saturation remains within range, but his breathing effort and clinical appearance fluctuate. You raise your concerns with a senior clinician. "
+    },
+    {
+      "screen_title": "What must be monitored in oxygen therapy",
+      "screen_content": "Knowing whether you should initiate oxygen therapy for Joe is more than monitoring oxygen therapy involves more than oxygen saturation alone.\n\nKey elements include basic observations (respiratory rate, heart rate), signs of respiratory distress. Once oxygen is initiated, the oxygen dose being delivered (flow rate and FiO₂), the delivery device, its position, and the patient’s comfort and tolerance must also be monitored to ensure therapy is effective and safe."
+    },
+    {
+      "screen_title": "Maintaining the integrity of observations",
+      "screen_content": "Observations must reflect the patient’s true physiological state.\n\nOxygen therapy, patient behaviour, or device issues can falsely influence readings. SpO₂ values should be interpreted in context, ensuring they are not temporarily improved by factors such as brief changes in breathing pattern or poorly positioned devices.\n\nAccurate monitoring requires attention to how observations are obtained, not just the numbers recorded."
+    },
+    {
+      "screen_title": "Seeing the clinical pattern",
+      "screen_content": "Single observations provide limited information. Clinical significance lies in trends over time.\n\nIn Joe’s case, repeated assessments of breathing effort, oxygen requirements, and response to therapy are more informative than isolated readings.\n\nOver‑reliance on automated alerts or single values can delay recognition of deterioration. Clinical judgement depends on identifying patterns, not reacting to individual events."
+    },
+	  {
+  "screen_title": "Change in Joe’s condition",
+  "screen_content": "Over time, Joe’s work of breathing increases and his respiratory rate remains elevated. His clinical presentation suggests worsening respiratory compromise.\n\nYou initiate a clinical review and a senior clinician decides that Joe now requires supplemental oxygen (Conventional Oxygen Therapy). Section talks through contraindications (normoxia, etc.) Oxygen therapy is commenced using a simple face mask at a low dose."
+}
+  ]
+},
+  {
+  "topic_id": 4,
+  "topic": "Principles of titration",
+  "screens": [
+    {
+      "screen_title": "Joe starts oxygen therapy",
+      "screen_content": "Following clinical review, Joe has now been commenced on supplemental oxygen.\n\nAt this point, oxygen therapy becomes an active treatment that must be adjusted over time. Ongoing care depends not only on whether oxygen has been started, but on how it is titrated, monitored, and reviewed in response to Joe’s changing clinical state."
+    },
+    {
+      "screen_title": "Core concepts in oxygen titration",
+      "screen_content": "Titration is the deliberate, ongoing adjustment of oxygen delivery in response to the patient’s oxygen saturation, overall clinical presentation, and known risks.\n\nTitration does not rely on SpO₂ alone. It requires interpretation of trends, recognition of response to therapy, and awareness that oxygen therapy can both help and harm depending on how it is managed."
+    },
+    {
+      "screen_title": "What success looks like in oxygen therapy",
+      "screen_content": "Successful oxygen therapy uses the minimum amount of oxygen required to maintain the prescribed target range.\n\nIn Joe’s case, success is reflected by stable or improving oxygen requirements, stable or improving work of breathing, and no emerging signs of harm from over‑ or under‑treatment."
+    },
+    {
+      "screen_title": "What titration signals about your patient",
+      "screen_content": "Changes in oxygen requirements provide important clinical information.\n\nA need for progressively higher oxygen levels to achieve the same saturation suggests worsening respiratory function rather than improvement. Repeated upward adjustments without review — often referred to as oxygen creep — signal deterioration and require reassessment, not continued escalation of oxygen alone."
+    },
+    {
+      "screen_title": "Risk‑adjusted titration",
+      "screen_content": "Not all patients tolerate oxygen in the same way.\n\nSome clinical contexts carry increased risk of harm from excessive oxygen, requiring more conservative target ranges and closer monitoring. Examples include patients with a history of hypercapnia, chronic lung disease, or exposure to agents such as bleomycin or paraquat.\n\nTitration must always account for patient‑specific risk. Text then breaks out into mini-vignettes for patients on the same ward, i.e. Mary has COPD, James is undergoing chemotherapy and one of his drugs in bleomycin, Sam has paraquet poisoning."
+    },
+    {
+      "screen_title": "Planning to wean: what failure to wean tells you",
+      "screen_content": "Weaning oxygen is a planned reduction in therapy based on clinical improvement.\n\nInability to reduce oxygen without deterioration suggests unresolved pathology or limited physiological reserve. Failure to wean should prompt review and reassessment, rather than repeated unstructured attempts."
+    },
+    {
+      "screen_title": "Documenting clinical judgement in titration and weaning",
+      "screen_content": "All titration and weaning decisions must be supported by clear documentation.\n\nThis includes the reason for changes in oxygen dose, the patient’s response, target saturation ranges, and any concerns prompting review or escalation. Documenting clinical judgement supports patient safety, continuity of care, and shared understanding among the clinical team."
+    }
+  ]
+},
+  {
+  "topic_id": 5,
+  "topic": "Different types of devices",
+  "screens": [
+    {
+      "screen_title": "An overview of oxygen delivery devices",
+      "screen_content": ""
+    },
+    {
+      "screen_title": "Flow, FiO₂, and device capabilities",
+      "screen_content": ""
+    },
+    {
+      "screen_title": "Device‑specific safety risks and clinical pitfalls",
+      "screen_content": ""
+    },
+    {
+      "screen_title": "Correct Placement, Fit, and Troubleshooting",
+      "screen_content": ""
+    },
+    {
+      "screen_title": "Patient Comfort, Tolerance, and Practical Use",
+      "screen_content": ""
+    },
+    {
+      "screen_title": "Documenting Oxygen Delivery: Device, Dose, and Target Range",
+      "screen_content": ""
+    }
+  ]
+},
+  {
+  "topic_id": 6,
+  "topic": "Clinical review and escalation in oxygen therapy",
+  "screens": [
+    {
+      "screen_title": "Key clinical review points in oxygen therapy",
+      "screen_content": "Staff are empowered to initiate oxygen or increase the dose immediately when clinical need is identified. However, the initiation of oxygen or any increase in dose must always prompt timely clinical review."
+    },
+    {
+      "screen_title": "Common clinical review escalation triggers in oxygen therapy",
+      "screen_content": "Escalation for review is required when oxygen requirements increase, respiratory rate rises, signs of respiratory distress worsen, mental state changes (including new drowsiness), there is clinical concern (even if observation trends remain within the prescribed target range), suspicion of oxygen creep, signs of hypercapnia"
+    },
+    {
+      "screen_title": "Weaning oxygen and clinical stability",
+      "screen_content": "Weaning oxygen is a deliberate test of recovery, not a routine task. Difficulty maintaining target SpO₂, rising respiratory rate, or increasing distress during or after weaning indicates instability and should prompt clinical review rather than repeated unstructured attempts."
+    },
+    {
+      "screen_title": "Communicating and Documenting Clinical Review Decisions",
+      "screen_content": "Documentation should record why oxygen was initiated or changed, the patient’s response over time, who was notified, and agreed actions. Clear documentation supports continuity of care and prevents unsafe repetition or delay."
+    }
+  ]
+}
+]
