@@ -1,22 +1,30 @@
 [
   {
   "topic_id": 0,
-  "topic": "Priming question",
+  "topic": "Oxygen therapy for community acquired pneumonia: A clinical journey",
   "screens": [
     {
-      "screen_title": "Joe enters the hospital",
-      "screen_content": "Age: 68, Context: Admitted to the general ward for observation, Baseline: Previously independent, no long‑term oxygen therapy, Role in curriculum: Primary longitudinal case used to illustrate safe, thoughtful oxygen use over time. Priming question that focuses learners on key concepts/ Oxygen is a drug prescribed to treat hypoxaemia, not symptoms/Oxygen has a defined therapeutic window and can cause harm/ Oxygen therapy requires active clinical judgement over time."
-    } 
+      "screen_title": "Joe presents at the ED",
+      "screen_content": "Joe, 74, arrives in ED feeling unwell. He reports a 3-day history of productive cough, chills, and right-sided chest pain that worsens with deep breaths. He’s febrile (38.2°C), RR 22/min, HR 94, BP 132/78, SpO₂ 96% on room air. Auscultation reveals focal crackles at the right base. Joe says, “I’m really struggling to breathe smoothly. Can you give me one of those oxygen masks to make it easier?",
+	  "Estimated seat time": "0:15–0:20"
+    },
+	  {
+      "screen_title": "MCMA question",
+      "screen_content": "If supplemental oxygen were initiated now with the plan to keep Joe comfortable until his breathing eases, which of the following clinical consequeces are possible? Options: Absorption atelectasis (collapsed air sacs within Joe's lungs)/Increased oxidative stress (oxygen-induced tissue irritation)/Worsened V/Q mismatch (blood flow diverted to currently inefficient lung areas)/respiratory distress will be completely resolved over time/Underlying clinical deterioration will be masked/Blood oxygen will rise to adequately meet his tissue demands ",
+	  "Estimated seat time": "0:35–0:40"
+	   },
+	  {
+      "screen_title": "MCMA feedback",
+      "screen_content": "Oxygen is a prescribed medication with a clear indication, a defined therapeutic window, and mandatory monitoring and escalation protocols. Both hypoxaemia (inadequate arterial oxygen) and hyperoxaemia (excess arterial oxygen) carry serious, potentially fatal risks. As Joe’s case unfolds, you’ll see how to apply these principles in practice: prescribing oxygen only for documented hypoxaemia, understanding how its therapeutic window interacts with the clinical situations, and using your active clinical judgement to safely titrate, monitor, and wean therapy throughout his care pathway.",
+	 "Estimated seat time": "0:20–0:25"
+	  } 
 	  ]
   },
   {
   "topic_id": 1,
   "topic": "Introduction to oxygen therapy",
   "screens": [
-	{"screen_title": "Joe's story progresses",
-      "screen_content": "Joe is breathless and anxious, but his oxygen saturation remains normal on room air. You pause to consider whether oxygen would treat the underlying problem — or risk treating the wrong one. Based on the information available so far, should oxygen therapy be started for Joe at this point?"
-    },
-	 {
+		 {
       "screen_title": "The purpose and limitations of oxygen therapy",
       "screen_content": "Text takes us through rationale of not giving Joe oxygen at this stage, hitting following key points: Oxygen only treats hypoxaemia (low arterial blood oxygen). Oxygen therapy must be used to treat the right problem and oxygen does not treat his current indications. Oxygen has a defined therapeutic window and can cause harm. Oxygen therapy increases oxygen levels but does not improve ventilation or remove carbon dioxide."
     },
@@ -121,11 +129,11 @@
     },
 {
         "screen_title": "An overview of oxygen delivery devices",
-        "screen_content": "[Content Focus] Frame around Joe's stable SpO2 vs mask discomfort. Introduce 4 categories: Low-flow/variable (cannula, simple mask), Fixed-performance (Venturi), High-flow/support (HFNC), Reservoir (NRB). Core message: Match device to FiO2 need, work of breathing, hypercapnia risk, and tolerance. [Rise Interaction] Block: Sorting Process. Drag 3 patient snapshots (including Joe) into correct device category buckets. Builds classification logic in ~30s."
+        "screen_content": "Frame around Joe's stable SpO2 vs mask discomfort. Introduce 4 categories: Low-flow/variable (cannula, simple mask), Fixed-performance (Venturi), High-flow/support (HFNC), Reservoir (NRB). Core message: Match device to FiO2 need, work of breathing, hypercapnia risk, and tolerance. [Rise Interaction] Block: Sorting Process. Drag 3 patient snapshots (including Joe) into correct device category buckets. Builds classification logic in ~30s."
       },
       {
         "screen_title": "Flow, FiO2, and device capabilities",
-        "screen_content": "[Content Focus] Clarify: Flow rate ≠ delivered FiO2. Show how patient inspiratory demand + device design dictate actual concentration. Include capability table (Cannula: 1–6 L/24–44%, Simple mask: 5–10 L/40–60%, Venturi: fixed 24–60%, NRB: 10–15 L/60–90%+, HFNC: 20–60 L/21–100%). Flag Joe's 4 L/min on simple mask as sub-minimum (<5 L CO2 risk). Guide step-down vs step-up decision logic. [Rise Interaction] Block: Interactive Graphic + Accordion. Hover/click flow rates to reveal FiO2 ranges & safety thresholds. Add 'What happens if…?' micro-pop for Joe's sub-minimal flow. ~40s."
+        "screen_content": "Clarify: Flow rate ≠ delivered FiO2. Show how patient inspiratory demand + device design dictate actual concentration. Include capability table (Cannula: 1–6 L/24–44%, Simple mask: 5–10 L/40–60%, Venturi: fixed 24–60%, NRB: 10–15 L/60–90%+, HFNC: 20–60 L/21–100%). Flag Joe's 4 L/min on simple mask as sub-minimum (<5 L CO2 risk). Guide step-down vs step-up decision logic. [Rise Interaction] Block: Interactive Graphic + Accordion. Hover/click flow rates to reveal FiO2 ranges & safety thresholds. Add 'What happens if…?' micro-pop for Joe's sub-minimal flow. ~40s."
       },
       {
         "screen_title": "Device‑specific safety risks and clinical pitfalls",
@@ -163,7 +171,7 @@
     },
     {
       "screen_title": "Communicating and Documenting Clinical Review Decisions",
-      "screen_content": "Documentation should record why oxygen was initiated or changed, the patient’s response over time, who was notified, and agreed actions. Clear documentation supports continuity of care and prevents unsafe repetition or delay."
+      "screen_content": "Documentation should record why oxygen was initiated or changed, the patient’s response over time, who was notified, and agreed actions. Clear documentation supports continuity of care and prevents unsafe repetition or delay. Draw from "
     }
   ]
 }
