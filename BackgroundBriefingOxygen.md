@@ -2,7 +2,11 @@
 
 **Updated from source documents | Evidence base: BTS 2017, TSANZ 2022, ACI COVID algorithm, Beasley et al. 2019, Cousins et al. 2020**
 
----
+## Target Learning Outcomes:
+1.	Decide whether to initiate oxygen therapy by identifying the correct clinical indication, recognising relevant physiological risks and contraindications, applying fundamental prescribing principles to ensure patient safety and documenting clinical decisions. 
+2.	Select, initiate and document the appropriate oxygen delivery device and flow rate using patient assessment, prescribed target saturations, and an understanding of clinically appropriate FiO₂ and flow requirements to ensure safe and effective oxygen therapy.
+3.	Apply clinical reasoning to investigate sudden changes in oxygen saturation, distinguishing device‑related issues (e.g. displacement, incorrect flow, equipment malfunction) from true clinical deterioration, and titrating oxygen doses appropriately while documenting your clinical reasoning.
+4.	Recognise and respond to escalation triggers by applying clinically appropriate thresholds (including Between the Flags criteria) and exercising sound clinical judgement to initiate timely escalation to senior clinicians or rapid response teams.
 
 ## Philosophy of Oxygen Therapy
 
