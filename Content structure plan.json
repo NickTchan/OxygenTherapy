@@ -1,178 +1,300 @@
 [
   {
-  "topic_id": 0,
-  "topic": "Oxygen therapy for community acquired pneumonia: A clinical journey",
-  "screens": [
-    {
-      "screen_title": "Joe presents at the ED",
-      "screen_content": "Joe, 74, arrives in ED feeling unwell. He reports a 3-day history of productive cough, chills, and right-sided chest pain that worsens with deep breaths. He’s febrile (38.2°C), RR 22/min, HR 94, BP 132/78, SpO₂ 96% on room air. Auscultation reveals focal crackles at the right base. Joe says, “I’m really struggling to breathe smoothly. Can you give me one of those oxygen masks to make it easier?",
-	  "Estimated seat time": "0:15–0:20"
-    },
-	  {
-      "screen_title": "MCMA question",
-      "screen_content": "If supplemental oxygen were initiated now with the plan to keep Joe comfortable until his breathing eases, which of the following clinical consequeces are possible? Options: Absorption atelectasis (collapsed air sacs within Joe's lungs)/Increased oxidative stress (oxygen-induced tissue irritation)/Worsened V/Q mismatch (blood flow diverted to currently inefficient lung areas)/respiratory distress will be completely resolved over time/Underlying clinical deterioration will be masked/Blood oxygen will rise to adequately meet his tissue demands ",
-	  "Estimated seat time": "0:35–0:40"
-	   },
-	  {
-      "screen_title": "MCMA feedback",
-      "screen_content": "Oxygen is a prescribed medication with a clear indication, a defined therapeutic window, and mandatory monitoring and escalation protocols. Both hypoxaemia (inadequate arterial oxygen) and hyperoxaemia (excess arterial oxygen) carry serious, potentially fatal risks. As Joe’s case unfolds, you’ll see how to apply these principles in practice: prescribing oxygen only for documented hypoxaemia, understanding how its therapeutic window interacts with the clinical situations, and using your active clinical judgement to safely titrate, monitor, and wean therapy throughout his care pathway.",
-	 "Estimated seat time": "0:20–0:25"
-	  } 
-	  ]
+    "topic_id": 0,
+    "topic": "1. Introduction",
+    "screens": [
+      {
+        "screen_title": "1.1 Overview",
+        "screen_content": "Overview of what the module covers: Who is this module for? What will I learn? How long will it take? How do I complete this module?",
+        "Variations/Common mistakes/conceptual focus": "Not applicable",
+        "Screen type": "Text on image; Paragraph with subheading; Accordion; Continue button",
+        "Media required": "Not applicable",
+        "Resources required/references/consultation": "Not applicable",
+        "Learning outcome addressed": "Not applicable",
+        "Estimated seat time": "Learners read introductory text, module objectives and context. 0:30–1:00"
+      },
+      {
+        "screen_title": "1.2 How to Navigate This Module on Desktop",
+        "screen_content": "Standardised content across modules.",
+        "Variations/Common mistakes/conceptual focus": "Not applicable",
+        "Screen type": "Paragraph with subheading; Labelled graphic",
+        "Media required": "Standard graphic",
+        "Resources required/references/consultation": "Not applicable",
+        "Learning outcome addressed": "Not applicable",
+        "Estimated seat time": "Learners read instructional paragraph and study a labelled graphic. 0:30–1:00"
+      },
+      {
+        "screen_title": "1.3 How to Navigate This Module on Mobile",
+        "screen_content": "Standard content",
+        "Variations/Common mistakes/conceptual focus": "Not applicable",
+        "Screen type": "Paragraph with subheading; Labelled graphic",
+        "Media required": "Standard graphic",
+        "Resources required/references/consultation": "Not applicable",
+        "Learning outcome addressed": "Not applicable",
+        "Estimated seat time": "Learners read instructional paragraph and study a labelled graphic. 0:10–0:30"
+      },
+      {
+        "screen_title": "1.4 Note",
+        "screen_content": "Note warning that this module contains audio",
+        "Variations/Common mistakes/conceptual focus": "Not applicable",
+        "Screen type": "Note; Video",
+        "Media required": "Standard Audio Sound",
+        "Resources required/references/consultation": "Not applicable",
+        "Learning outcome addressed": "Not applicable",
+        "Estimated seat time": "Learners read instruction and listen to an audio sample. 0:10"
+      },
+      {
+        "screen_title": "1.5 Pre-Test Introduction",
+        "screen_content": "Explanation of why learners are doing the pretesting activity",
+        "Variations/Common mistakes/conceptual focus": "Not applicable",
+        "Screen type": "Paragraph with subheading",
+        "Media required": "Not applicable",
+        "Resources required/references/consultation": "Pan & Carpenter (2023) *Prequestioning and Pretesting Effects*",
+        "Learning outcome addressed": "Not applicable",
+        "Estimated seat time": "Learners read explanatory text about the purpose and structure of the pre-test. 0:15–0:20"
+      }
+    ]
   },
   {
-  "topic_id": 1,
-  "topic": "Introduction to oxygen therapy",
-  "screens": [
-		 {
-      "screen_title": "The purpose and limitations of oxygen therapy",
-      "screen_content": "Text takes us through rationale of not giving Joe oxygen at this stage, hitting following key points: Oxygen only treats hypoxaemia (low arterial blood oxygen). Oxygen therapy must be used to treat the right problem and oxygen does not treat his current indications. Oxygen has a defined therapeutic window and can cause harm. Oxygen therapy increases oxygen levels but does not improve ventilation or remove carbon dioxide."
-    },
-    {
-      "screen_title": "The role of clinical judgement in using oxygen therapy ",
-      "screen_content": "Joe doesn't yet have clinical indication of hypoxemia. Oxygen must be initiated with clinical indication of hypoxaemia. Oxygen has a range (therapeutic window). Too little or too much oxygen can cause patient harm or hide deterioration. Clinical judgement involves deciding when oxygen is needed, when it is not, and how it should be adjusted over time so patients receive the right dose, in the right range, for the right clinical context and duration. The goal is not “more oxygen”, but the right dose, in the right range for the clinical context and for the right duration. ABG: PaO₂ < 60 mmHg or Pulse oximetry: SpO₂ < 92%. There's no indication of need for ABG yet, and SpO2 is above target."
-    },
-    {
-      "screen_title": "Oxygen as a prescribed medication: getting the dose right",
-      "screen_content": "The dose of oxygen is determined by FiO2 (the concentration of oxygen delivered) and flow rate (how fast it is delivered). Dose is determined by device. Tolerance and efficiency is influenced by factors such as humidification. Later topics cover the dangers of under and over dosing."
-    }
-  ]
-},
-  {
-  "topic_id": 2,
-  "topic": "Core concepts in oxygen therapy",
-  "screens": [
-	  {"screen_title": "Joe's story - several hours later",
-      "screen_content": "Joe remains short of breath and anxious at times, with periods of rapid breathing. His oxygen saturation has stayed within the normal range on room air, with no sustained desaturation. This raises an important question; what is his SpO2 telling us and what doesn't it tell us?"
-    },
-    {
-      "screen_title": "The role of peripheral oxygen saturation in oxygen therapy",
-      "screen_content": "Defines what Joe's current SPo2 is telling us and what it isn't telling us. SPo2 isn't as accurate as ABG, but treatment should not be delayed while waiting for an ABG. ABGs have patient costs, system costs and workflow costs, but they provide information that SpO2 cannot. SpO₂ <90% in most patients would trigger oxygen therapy. SpO₂ does not give a definitive measure of arterial oxygen levels. ABG gives definitive measures of PaO₂ (oxygen tension) and SaO₂. SpO₂ also does not show how hard a patient is working to breathe, how effectively they are ventilating, or whether carbon dioxide is being removed. SpO₂ is a single data point — not a complete picture of respiratory status. Pulse oximetry doesn't measure PaCO₂, is less accurate at lower saturations and cannot assess acid-base status. "
-    },
-    {
-      "screen_title": "The clinical implications behind the numbers in oxygen therapy",
-      "screen_content": "A normal SpO₂ does not necessarily mean a patient is stable. Patients like Joe can look adequately oxygenated while their breathing effort increases or their ventilation worsens.\n\nConversely, oxygen therapy can improve SpO₂ values without improving the underlying problem. When numbers improve but physiology does not, SpO₂ can falsely reassure and delay recognition of deterioration."
-    },
-    {
-  "screen_title": "When oxygen therapy can cause harm",
-  "screen_content": "Relying on SpO₂ alone to guide oxygen therapy can cause harm.\n\nGiving oxygen when SpO₂ is already adequate can lead to excessively high oxygen levels (hyperoxaemia), which may present with subtle but visible clinical signs and can mask ongoing disease processes.\n\nOxygen therapy does not improve ventilation. A patient may maintain normal or high SpO₂ while carbon dioxide rises, leading to visible signs such as drowsiness, headache, confusion, or reduced consciousness (hypercapnia).\n\nIncreasing oxygen to maintain a target SpO₂ can also conceal worsening respiratory function. This hidden deterioration, often referred to as oxygen creep, delays recognition of clinical decline.\n\nKey risk patterns to recognise: hyperoxaemia (visible signs), hypercapnia (visible signs), and oxygen creep (hidden deterioration)."
-}
-  ]
-},
-  {
-  "topic_id": 3,
-  "topic": "Monitoring oxygen therapy",
-  "screens": [
-    {
-      "screen_title": "Joe’s story – monitoring over time",
-      "screen_content": "Joe’s condition continues to evolve over the course of his admission. His oxygen saturation remains within range, but his breathing effort and clinical appearance fluctuate. You raise your concerns with a senior clinician. "
-    },
-    {
-      "screen_title": "What must be monitored in oxygen therapy",
-      "screen_content": "Knowing whether you should initiate oxygen therapy for Joe is more than monitoring oxygen therapy involves more than oxygen saturation alone.\n\nKey elements include basic observations (respiratory rate, heart rate), signs of respiratory distress. Once oxygen is initiated, the oxygen dose being delivered (flow rate and FiO₂), the delivery device, its position, and the patient’s comfort and tolerance must also be monitored to ensure therapy is effective and safe."
-    },
-    {
-      "screen_title": "Maintaining the integrity of observations",
-      "screen_content": "Observations must reflect the patient’s true physiological state.\n\nOxygen therapy, patient behaviour, or device issues can falsely influence readings. SpO₂ values should be interpreted in context, ensuring they are not temporarily improved by factors such as brief changes in breathing pattern or poorly positioned devices.\n\nAccurate monitoring requires attention to how observations are obtained, not just the numbers recorded."
-    },
-    {
-      "screen_title": "Seeing the clinical pattern",
-      "screen_content": "Single observations provide limited information. Clinical significance lies in trends over time.\n\nIn Joe’s case, repeated assessments of breathing effort, oxygen requirements, and response to therapy are more informative than isolated readings.\n\nOver‑reliance on automated alerts or single values can delay recognition of deterioration. Clinical judgement depends on identifying patterns, not reacting to individual events."
-    },
-	  {
-  "screen_title": "Change in Joe’s condition",
-  "screen_content": "Over time, Joe’s work of breathing increases and his respiratory rate remains elevated. His clinical presentation suggests worsening respiratory compromise.\n\nYou initiate a clinical review and a senior clinician decides that Joe now requires supplemental oxygen (Conventional Oxygen Therapy). Section talks through contraindications (normoxia, etc.) Oxygen therapy is commenced using a simple face mask at a low dose."
-}
-  ]
-},
-  {
-  "topic_id": 4,
-  "topic": "Principles of titration",
-  "screens": [
-    {
-      "screen_title": "Joe starts oxygen therapy",
-      "screen_content": "Following clinical review, Joe has now been commenced on supplemental oxygen.\n\nAt this point, oxygen therapy becomes an active treatment that must be adjusted over time. Ongoing care depends not only on whether oxygen has been started, but on how it is titrated, monitored, and reviewed in response to Joe’s changing clinical state."
-    },
-    {
-      "screen_title": "Core concepts in oxygen titration",
-      "screen_content": "Titration is the deliberate, ongoing adjustment of oxygen delivery in response to the patient’s oxygen saturation, overall clinical presentation, and known risks.\n\nTitration does not rely on SpO₂ alone. It requires interpretation of trends, recognition of response to therapy, and awareness that oxygen therapy can both help and harm depending on how it is managed."
-    },
-    {
-      "screen_title": "What success looks like in oxygen therapy",
-      "screen_content": "Successful oxygen therapy uses the minimum amount of oxygen required to maintain the prescribed target range.\n\nIn Joe’s case, success is reflected by stable or improving oxygen requirements, stable or improving work of breathing, and no emerging signs of harm from over‑ or under‑treatment."
-    },
-    {
-      "screen_title": "What titration signals about your patient",
-      "screen_content": "Changes in oxygen requirements provide important clinical information.\n\nA need for progressively higher oxygen levels to achieve the same saturation suggests worsening respiratory function rather than improvement. Repeated upward adjustments without review — often referred to as oxygen creep — signal deterioration and require reassessment, not continued escalation of oxygen alone."
-    },
-    {
-      "screen_title": "Risk‑adjusted titration",
-      "screen_content": "Not all patients tolerate oxygen in the same way.\n\nSome clinical contexts carry increased risk of harm from excessive oxygen, requiring more conservative target ranges and closer monitoring. Examples include patients with a history of hypercapnia, chronic lung disease, or exposure to agents such as bleomycin or paraquat.\n\nTitration must always account for patient‑specific risk. Text then breaks out into mini-vignettes for patients on the same ward, i.e. Mary has COPD, James is undergoing chemotherapy and one of his drugs in bleomycin, Sam has paraquet poisoning."
-    },
-    {
-      "screen_title": "Planning to wean: what failure to wean tells you",
-      "screen_content": "Weaning oxygen is a planned reduction in therapy based on clinical improvement.\n\nInability to reduce oxygen without deterioration suggests unresolved pathology or limited physiological reserve. Failure to wean should prompt review and reassessment, rather than repeated unstructured attempts."
-    },
-    {
-      "screen_title": "Documenting clinical judgement in titration and weaning",
-      "screen_content": "All titration and weaning decisions must be supported by clear documentation.\n\nThis includes the reason for changes in oxygen dose, the patient’s response, target saturation ranges, and any concerns prompting review or escalation. Documenting clinical judgement supports patient safety, continuity of care, and shared understanding among the clinical team."
-    }
-  ]
-},
-  {
-  "topic_id": 5,
-  "topic": "Different types of devices",
-  "screens": [
-{
-      "screen_title": "Joe shows discomfort",
-      "screen_content": "Joe remains on a simple face mask at 4 L/min following initiation in Topic 3. His SpO2 has stabilised at 94%, but he reports difficulty speaking clearly and feels claustrophobic. You must evaluate whether his current device matches his clinical needs."
-    },
-{
-        "screen_title": "An overview of oxygen delivery devices",
-        "screen_content": "Frame around Joe's stable SpO2 vs mask discomfort. Introduce 4 categories: Low-flow/variable (cannula, simple mask), Fixed-performance (Venturi), High-flow/support (HFNC), Reservoir (NRB). Core message: Match device to FiO2 need, work of breathing, hypercapnia risk, and tolerance. [Rise Interaction] Block: Sorting Process. Drag 3 patient snapshots (including Joe) into correct device category buckets. Builds classification logic in ~30s."
+    "topic_id": 1,
+    "topic": "2. Case Study: A Clinical Journey for Oxygen Therapy",
+    "screens": [
+      {
+        "screen_title": "2.1 Joe Presents at ED",
+        "screen_content": "Pre-testing question introducing \"Joe\", 74, who arrives in ED feeling unwell. He reports a 3-day history of productive cough, chills, and right-sided chest pain that worsens with deep breaths. He is febrile (38.2°C), RR 22/min, HR 94, BP 132/78, SpO₂ 96% on room air. Auscultation reveals focal crackles at the right base. Joe says, \"I'm really struggling to breathe smoothly. Can you give me one of those oxygen masks to make it easier?\"",
+        "Variations/Common mistakes/conceptual focus": "N/A",
+        "Screen type": "Scenario with MCMA question",
+        "Media required": "Image set of \"Joe\" upon triage and throughout process; eMR BTF images",
+        "Resources required/references/consultation": "Pan & Carpenter (2023); O'Driscoll et al. (2017) Executive Summary; Barnett et al. (2022) Abstract and Key Recommendations (Table 1)",
+        "Learning outcome addressed": "LO1",
+        "Estimated seat time": "Learners read a detailed clinical scenario including Joe's presentation, history, vital signs, and clinical context. Includes image comprehension and initial diagnostic reasoning. 1:45–2:20"
       },
       {
-        "screen_title": "Flow, FiO2, and device capabilities",
-        "screen_content": "Clarify: Flow rate ≠ delivered FiO2. Show how patient inspiratory demand + device design dictate actual concentration. Include capability table (Cannula: 1–6 L/24–44%, Simple mask: 5–10 L/40–60%, Venturi: fixed 24–60%, NRB: 10–15 L/60–90%+, HFNC: 20–60 L/21–100%). Flag Joe's 4 L/min on simple mask as sub-minimum (<5 L CO2 risk). Guide step-down vs step-up decision logic. [Rise Interaction] Block: Interactive Graphic + Accordion. Hover/click flow rates to reveal FiO2 ranges & safety thresholds. Add 'What happens if…?' micro-pop for Joe's sub-minimal flow. ~40s."
+        "screen_title": "2.2 MCMA Question",
+        "screen_content": "Five stems that unpack clinical consequences of using oxygen outside of prescription paradigm: (1) Absorption atelectasis; (2) Increased oxidative stress; (3) Worsened V/Q mismatch; (4) Joe's breathing discomfort will be resolved; (5) Underlying clinical deterioration will be masked; (6) Blood oxygen will rise to adequately meet demands",
+        "Variations/Common mistakes/conceptual focus": "Not applicable",
+        "Screen type": "Question options",
+        "Media required": "Not applicable",
+        "Resources required/references/consultation": "Pan & Carpenter (2023); O'Driscoll et al. (2017) Section F; Barnett et al. (2022) Section 3; Beasley et al. (2019) Section: Hyperoxaemia and High Inspired Oxygen Concentrations",
+        "Learning outcome addressed": "LO1",
+        "Estimated seat time": "Learners read the question stem and evaluate six response options independently. Multiple-correct format requires weighing each option against clinical reasoning before submitting. 1:50–2:25"
       },
       {
-        "screen_title": "Device‑specific safety risks and clinical pitfalls",
-        "screen_content": "[Content Focus] Detail device-specific hazards: Simple mask (<5 L = CO2 buildup, skin breakdown, communication barriers), NRB (bag collapse, valve failure, >4–6h limit), Venturi (clogged ports = wrong FiO2, false reassurance), HFNC (humidity failure, delayed escalation recognition). Link Joe's potential drowsiness/headache to device mismatch. [Rise Interaction] Block: Labeled Graphic (Hotspots). Tap 3 incorrectly set devices to identify hidden physiological traps. Builds visual troubleshooting in ~30s."
-      },
-      {
-        "screen_title": "Correct Placement, Fit, and Troubleshooting",
-        "screen_content": "[Content Focus] Delivery depends on fit/placement. Cannula (nares positioning, mouth breathing ↓FiO2), Masks (ports unobstructed, snug but not tight), NRB (bag 1/3–2/3 full). Include rapid troubleshooting for non-responding SpO2, skin breakdown, condensation. Note Joe's anxiety-driven mouth-breathing reduces cannula efficiency → requires 15–20 min monitor post-switch. [Rise Interaction] Block: Image with Click-to-Reveal. 'Fit or Fail?' hotspot activity: Tap 4 common placement errors to see correction. Quick pattern-recognition. ~25s."
-      },
-      {
-        "screen_title": "Patient Comfort, Tolerance, and Practical Use",
-        "screen_content": "[Content Focus] Comfort directly impacts compliance & clinical safety. Intolerance → intermittent hypoxia. Compare profiles: Cannula (high tolerance, allows eating/talking), Masks (lower, claustrophobia, heat, oral med difficulty), HFNC (generally good, bulky tubing). Validate Joe's intolerance as clinical, not preference. Decision: Switch to humidified nasal cannula 2–3 L/min. [Rise Interaction] Block: Scenario. 'Clinical Trade-Off' 2-path micro-branch: Low-demand comfort issue vs high-demand work of breathing. Learner selects device, gets immediate feedback on risk/benefit. ~20s."
-      },
-      {
-        "screen_title": "Documenting Oxygen Delivery: Device, Dose, and Target Range",
-        "screen_content": "[Content Focus] Prevent 'oxygen creep' via precise documentation. Required fields: device type, flow (L/min), FiO2 (if fixed), target SpO2 range, current sat, time, clinician. Call out unsafe phrasing ('O2 on mask'). Show Joe's compliant entry example. Emphasise: documentation = tracked clinical intervention, not task. [Rise Interaction] Block: Custom Quiz (Select Multiple). 'Doc Detective': 3 flawed chart entries vs 1 correct. Learner identifies errors, then sees ideal version. Fast recall builder. ~30s."
+        "screen_title": "2.3 MCMA Feedback",
+        "screen_content": "Tick/cross feedback (options 1, 2, 3, 5 are plausible). Feedback text primes for: clear indication, a defined therapeutic window, and mandatory monitoring and escalation protocols.",
+        "Variations/Common mistakes/conceptual focus": "Not applicable",
+        "Screen type": "Not applicable",
+        "Media required": "Not applicable",
+        "Resources required/references/consultation": "Pan & Carpenter (2023); O'Driscoll et al. (2017) Section A; Barnett et al. (2022) Section 2; Beasley et al. (2019) Section: Titration of Oxygen Therapy to Target Arterial Oxygen Saturation Range",
+        "Learning outcome addressed": "LO1",
+        "Estimated seat time": "Learners review tick/cross feedback for all six options, reading correct and incorrect explanations and cross-referencing against their own selections. 1:25–1:50"
       }
-  ]
-},
+    ]
+  },
   {
-  "topic_id": 6,
-  "topic": "Clinical review and escalation in oxygen therapy",
-  "screens": [
-    {
-      "screen_title": "Key clinical review points in oxygen therapy",
-      "screen_content": "Staff are empowered to initiate oxygen or increase the dose immediately when clinical need is identified. However, the initiation of oxygen or any increase in dose must always prompt timely clinical review."
-    },
-    {
-      "screen_title": "Common clinical review escalation triggers in oxygen therapy",
-      "screen_content": "Escalation for review is required when oxygen requirements increase, respiratory rate rises, signs of respiratory distress worsen, mental state changes (including new drowsiness), there is clinical concern (even if observation trends remain within the prescribed target range), suspicion of oxygen creep, signs of hypercapnia"
-    },
-    {
-      "screen_title": "Weaning oxygen and clinical stability",
-      "screen_content": "Weaning oxygen is a deliberate test of recovery, not a routine task. Difficulty maintaining target SpO₂, rising respiratory rate, or increasing distress during or after weaning indicates instability and should prompt clinical review rather than repeated unstructured attempts."
-    },
-    {
-      "screen_title": "Communicating and Documenting Clinical Review Decisions",
-      "screen_content": "Documentation should record why oxygen was initiated or changed, the patient’s response over time, who was notified, and agreed actions. Clear documentation supports continuity of care and prevents unsafe repetition or delay. Draw from "
-    }
-  ]
-}
+    "topic_id": 2,
+    "topic": "3. Introduction to Oxygen Therapy",
+    "screens": [
+      {
+        "screen_title": "3.1 The Basics of Oxygen Therapy",
+        "screen_content": "\"Dr Saldana\" narrative quote carousel covering: Oxygen is strictly for hypoxaemia and is a Schedule 4 drug; incorrect dosing or unnecessary use is hazardous and can mask decline. Hypoxaemia is a pathophysiological state, not a symptom. SpO₂ 85–91% → Start nasal cannula at 2–4 L/min (FiO₂ 0.28–0.36). SpO₂ <85% → Titrate to higher-flow/advanced delivery devices. Clinical review upon starting oxygen and retrospective documentation of device, FiO₂, and flow rate. Note block: Oxygen is strictly for hypoxaemia (not dyspnoea); initiate if below 92% then arrange clinical review and document.",
+        "Variations/Common mistakes/conceptual focus": "Oxygen can be used to treat breathlessness; oxygen is \"set and forget\"",
+        "Screen type": "Quote carousel; Note block",
+        "Media required": "Image of \"Doctor Saldana\"; image of BTF eMR obs; image of SpO₂; image of nasal cannula device",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Executive Summary and Section A; Barnett et al. (2022) Section 3; Beasley et al. (2019) Section: Hypoxaemia and Oxygen as a Drug",
+        "Learning outcome addressed": "LO1",
+        "Estimated seat time": "A carousel with multiple slides requires the learner to click through and read each quote in sequence. The note block adds additional reading. 1:50–2:30"
+      },
+      {
+        "screen_title": "3.2 The Role of Clinical Judgement in Using Oxygen Therapy",
+        "screen_content": "Doctor Saldana explains oxygen operates within a strict therapeutic window. Too little = tissue hypoxia; too much = toxicity or loss of benefit. Flip card exercise: Joe (Community-Acquired Pneumonia) – O₂ plan (2–4 L/min to target SpO₂ 94%); Sally (COPD) – narrow therapeutic window, impact on hypoxic respiratory drive, worsening V/Q mismatch, hypercapnic respiratory failure; George (Bleomycin) – oxidative injury to alveoli, window capped at lowest safe SpO₂ (88–90%).",
+        "Variations/Common mistakes/conceptual focus": "Assuming a universal 94–98% target for all patients; prescribing fixed flows instead of ranges; aiming for 100% saturation in routine care, risking hyperoxia and masking clinical deterioration",
+        "Screen type": "Text and flip card images",
+        "Media required": "Flip cards with three random patient images appropriate to condition (Joe is one)",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Section G; Barnett et al. (2022) Section 3; Beasley et al. (2019) Sections on Physiological Effects of Hyperoxaemia and High FiO₂",
+        "Learning outcome addressed": "LO1",
+        "Estimated seat time": "Learners read introductory framing text then flip three cards, each revealing clinical judgement principles with examples. 1:55–2:30"
+      },
+      {
+        "screen_title": "3.3 Oxygen as a Prescribed Medication: Getting the Dose Right",
+        "screen_content": "Dr Saldana explains that Joe's oxygen dose combines FiO₂ (concentration) and flow rate (delivery). Note: FiO₂ reflects delivered O₂, not tissue uptake; FiO₂ is estimated at low flows and precise with high-flow devices. Dosing is dynamic (Observe → Analyse → Act), targeting weaning to room air. Graphic timeline: (1) Initial SpO₂ <92% → Step 1; (2) SpO₂ declining → small increase; (3) SpO₂ >94% stable → opportunity to wean; (4) SpO₂ maintained on room air → weaning from oxygen.",
+        "Variations/Common mistakes/conceptual focus": "Equating flow rate (L/min) with delivered dose (FiO₂); not applying changes in dose dynamically",
+        "Screen type": "Quote block; List; Timeline",
+        "Media required": "Image of Doctor Saldana; timeline with BTF eMR images showing SpO₂ change as dose changes",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Sections S and T; Barnett et al. (2022) Section 2; Beasley et al. (2019) Section: Titration of Oxygen Therapy to Target Arterial Oxygen Saturation Range",
+        "Learning outcome addressed": "LO2",
+        "Estimated seat time": "Learners read explanatory text on oxygen prescribing principles then step through a four-stage timeline graphic. 2:35–3:20"
+      }
+    ]
+  },
+  {
+    "topic_id": 3,
+    "topic": "4. Core Concepts in Oxygen Therapy",
+    "screens": [
+      {
+        "screen_title": "4.1 Joe's Story Continued – Hidden Signs of Respiratory Deterioration",
+        "screen_content": "Joe's SpO₂ remains 96% on room air, yet his breathing pattern is shifting. Dr Saldana flags accessory muscle recruitment, a respiratory rate of 26/min, and subtle intercostal retractions. Normal saturation can easily mask physiological deterioration. SpO₂ is a proxy measure of oxygenation and does not measure ventilation or CO₂ clearance. A range of indications must be assessed alongside pulse oximetry to detect early respiratory deterioration.",
+        "Variations/Common mistakes/conceptual focus": "Over-reliance on pulse oximetry as a standalone metric; delaying escalation when respiratory effort increases despite normal saturations",
+        "Screen type": "Text with hotspot labelled graphic",
+        "Media required": "Image of Doctor Saldana; labelled image of Joe showing signs of respiratory distress (NSW Hotspot interaction)",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Sections B and B3; Barnett et al. (2022) Section 1; Beasley et al. (2019) Section: Delayed Recognition of Deterioration",
+        "Learning outcome addressed": "LO4",
+        "Estimated seat time": "Learners re-engage with the clinical scenario and explore 3–4 hotspot points on an image revealing signs of deterioration. 1:45–2:15"
+      },
+      {
+        "screen_title": "4.2 Understanding What We Are Observing in Oxygen Therapy",
+        "screen_content": "Dr Saldana explains pulse oximetry cannot detect hypercapnia, acidosis, or anaemia and is not accurate below 80%. Accordion table covering: SaO₂ vs SpO₂ (SaO₂ is real arterial oxygen saturation; SpO₂ is a non-invasive proxy); Respiratory Rate (RR) – early compensatory marker, sustained RR ≥ 24 signals potential deterioration; PaCO₂ & Drowsiness – PaCO₂ measures arterial carbon dioxide tension, SpO₂ cannot detect hypercapnia; VBG vs ABG – VBG quicker but unreliable for PaO₂; ABG is gold standard.",
+        "Variations/Common mistakes/conceptual focus": "Assuming normal SpO₂ guarantees adequate tissue oxygenation; delaying ABG when clinical signs diverge from oximetry; misinterpreting venous gas PaCO₂ as equivalent to arterial values; not recognising V/Q mismatch",
+        "Screen type": "Text; Accordion interaction",
+        "Media required": "Not applicable",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Sections B and C; Barnett et al. (2022) Section 1; Beasley et al. (2019) Section: Pulse Oximetry Limitations",
+        "Learning outcome addressed": "LO1",
+        "Estimated seat time": "Learners read introductory text then open and process four accordion panels. 2:50–3:40"
+      },
+      {
+        "screen_title": "4.3 When Oxygen Therapy Can Cause Harm",
+        "screen_content": "Dr Saldana recaps pre-testing answer on risk of administering supplemental oxygen when saturations are already adequate. Tab/accordion interaction covering: Hyperoxaemia – often masks underlying disease progression; Rebreathing CO₂ – can trigger V/Q mismatch and drive hypercapnia even while SpO₂ remains in range; Hypercapnia (in COPD, CF, morbid obesity, neuromuscular/chest wall disease, bronchiectasis) – signs such as drowsiness; ABG is only way to confirm.",
+        "Variations/Common mistakes/conceptual focus": "Overlooking subtle hypercapnic signs; escalating flow without reassessing ventilation/rebreathing risk or checking for oxygen creep",
+        "Screen type": "Tab interaction",
+        "Media required": "Not applicable",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Sections H and L; Barnett et al. (2022) Section 3; Beasley et al. (2019) Sections on Hyperoxaemia and Physiological Effects of Hyperoxaemia (Table 1)",
+        "Learning outcome addressed": "LO1",
+        "Estimated seat time": "Learners navigate three tabbed panels covering distinct harm pathways. 2:35–3:20"
+      }
+    ]
+  },
+  {
+    "topic_id": 4,
+    "topic": "5. Monitoring Oxygen Therapy",
+    "screens": [
+      {
+        "screen_title": "5.1 Joe's Story Continued – Oxygen Initiation",
+        "screen_content": "Clinical vignette: Joe, 74, is now visibly fatiguing. Over the past hour, his respiratory rate has steadily climbed to 28/min with marked accessory muscle use and shallow intercostal retractions. His SpO₂ has gradually declined from 95% to 89% on room air, and his heart rate has risen to 106 bpm. Pulse oximeter probe is verified as securely positioned with adequate perfusion. Auscultation confirms persistent right basal crackles and clearly deteriorating breathing pattern.",
+        "Variations/Common mistakes/conceptual focus": "Not confirming pulse oximeter probe position and perfusion; only the drop in SpO₂ is the clinical indication for hypoxaemia",
+        "Screen type": "Text with image",
+        "Media required": "Image set of \"Joe\" being fitted with an oxygen mask; eMR BTF obs showing RR and SpO₂ trend",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Sections A and B; Barnett et al. (2022) Section 1; Beasley et al. (2019) Section: Hypoxaemia",
+        "Learning outcome addressed": "LO2",
+        "Estimated seat time": "Learners read, study a device image and interpret a trend graph showing Joe's response to therapy. 1:25–1:50"
+      },
+      {
+        "screen_title": "5.2 Initiating Oxygen Therapy",
+        "screen_content": "Introduction: Initiation trigger. Table of indications for COPD, bleomycin, paraquat, etc. with adjusted target saturations. Matching activity covering: screen for conditions requiring adjusted targets; screen for V/Q mismatch concerns and poor perfusion; initiate oxygen (nasal cannula, approx. FiO₂ 0.24–0.35, flow rate 1–4, start at 2 L/min); escalate to Dr Saldana for clinical review and prescription; document indication, device, target saturation range, and dose.",
+        "Variations/Common mistakes/conceptual focus": "Waiting too long for clinical review when oxygen has fallen below hypoxaemia threshold; immediate treatment is optimal as long as clinical review is immediately undertaken and documentation occurs",
+        "Screen type": "Text; Table; Matching",
+        "Media required": "Not applicable",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Section D; Barnett et al. (2022) Section 4; Beasley et al. (2019) Section: Titration of Oxygen Therapy",
+        "Learning outcome addressed": "LO1",
+        "Estimated seat time": "2:30–3:30"
+      },
+      {
+        "screen_title": "5.3 Maintaining the Integrity of Observations",
+        "screen_content": "Obs guides safe oxygen titration. Accuracy may be impacted by systemic sclerosis, hypotension, hypovolaemia, and elevated carbon monoxide. Flip card activity exploring correct vs. incorrect practice: 30–60 seconds of quiet, normal breathing before recording; optimal probe placement; no recording during patient movement, coughing or position changes; check for interference (nails, bright light, etc.); limb positioning; confirm perfusion index is normal.",
+        "Variations/Common mistakes/conceptual focus": "Over-reliance on numerical values without verifying signal quality or physiological context",
+        "Screen type": "Text; Image carousel or flip cards",
+        "Media required": "Clinical images contrasting correct vs. incorrect pulse oximeter placement; perfusion index display on WOW (good vs. bad)",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Section T; Barnett et al. (2022) Section 1; Beasley et al. (2019) Section: Limitations of Pulse Oximetry",
+        "Learning outcome addressed": "LO3",
+        "Estimated seat time": "Text introduction + carousel interaction + cognitive processing of clinical implications. 1:05–1:20"
+      }
+    ]
+  },
+  {
+    "topic_id": 5,
+    "topic": "6. Principles of Titration",
+    "screens": [
+      {
+        "screen_title": "6.1 Joe's Story Continued – No Improvement Despite Oxygen",
+        "screen_content": "Clinical vignette: Joe, 74, is receiving oxygen at 4 L/min. Five minutes after initiation, his respiratory rate (28) and SpO₂ is still at 89% with face mask. He is still exhibiting marked accessory muscle use and shallow intercostal retractions. Heart rate remains 106 bpm. Auscultation confirms persistent right basal crackles. Worsening pulmonary shunting from pneumonia is suspected.",
+        "Variations/Common mistakes/conceptual focus": "Understanding the concept of titration if the patient is not responsive to oxygen",
+        "Screen type": "Text with image",
+        "Media required": "\"Joe\" with oxygen mask; eMR BTF obs showing RR, HR, and SpO₂ trend fifteen minutes later",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Section T; Barnett et al. (2022) Section 5; Beasley et al. (2019) Section: Delayed Recognition of Deterioration",
+        "Learning outcome addressed": "LO2",
+        "Estimated seat time": "Clinical vignette text 1:00; processing 4–5 clinical data points 0:15–0:20. Total 1:00–1:30"
+      },
+      {
+        "screen_title": "6.2 Why We Titrate Oxygen and How We Start",
+        "screen_content": "Benefit/risk table: If worsening pulmonary shunting, increase dose to avoid tissue hypoxia, organ dysfunction, and death; if not deterioration, risk of hyperoxaemia and masking respiratory deterioration. Flip card activity: Image of blocked oxygen tubing (check patency); image of poorly fitting mask (check seal); image of vasoconstricted hand with poorly fitting probe (confirm no peripheral vasoconstriction and correct probe placement). True/false knowledge check: Do we increase dose?",
+        "Variations/Common mistakes/conceptual focus": "Jumping straight to titration and escalation without verifying equipment patency, seal, or probe placement; assuming static SpO₂ reflects true physiological decline when it may indicate a kinked tube, poor mask fit, or peripheral vasoconstriction artefact",
+        "Screen type": "Table; Flip cards; True/false knowledge check",
+        "Media required": "Images of blocked/clear tubing; Joe with occluded and correctly placed nasal cannula; correctly placed oxygen probes; normal/vasoconstricted hands",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Section T; Barnett et al. (2022) Section 5; Beasley et al. (2019) Section: Delayed Recognition of Deterioration",
+        "Learning outcome addressed": "LO2",
+        "Estimated seat time": "Introduction 0:18; if/then table 0:19; flip cards (×3) 0:44; true/false question 0:15"
+      },
+      {
+        "screen_title": "6.3 Titrating Up and Down",
+        "screen_content": "Introduction confirming device function; therefore must increase oxygen delivery. Reminder of target saturation for Joe. Image carousel of devices with approximate FiO₂, flow rate, and notes. MCMA question: Which device should be used to titrate upwards and how long before next observation? Correct answer: increase by one step (nasal cannula at higher flow) with 5-minute wait. Covers downward titration. Feedback includes step-by-step device/flow graphic.",
+        "Variations/Common mistakes/conceptual focus": "Making large, unmeasured flow jumps that overshoot target saturation; skipping the mandatory 5-minute physiological equilibrium window; failing to recognise that a ≥3% rapid drop overrides the standard wait time",
+        "Screen type": "Text; Image carousel; Multiple-choice single answer knowledge check",
+        "Media required": "Images of each device (nasal cannula low/high flow, simple face mask, Venturi mask, high-concentration reservoir mask, humidified high-flow nasal cannula), with colours and labels",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Section T; Barnett et al. (2022) Section 4; Beasley et al. (2019) Section: Titration of Oxygen Therapy",
+        "Learning outcome addressed": "LO2",
+        "Estimated seat time": "0:50–1:00 (70 words narrative + table + MCMA interaction)"
+      },
+      {
+        "screen_title": "6.4 What Does the Need to Titrate Tell Us?",
+        "screen_content": "Text on adjusting Joe's oxygen and why \"oxygen creep\" is an indirect clinical signal. Joe's SpO₂ remains at 89% despite upward titration. Interactive hotspot graph reveals rising shunt fraction (poorly ventilated lung tissue). Each oxygen dose increase merely compensates for worsening gas exchange. Gradual increase of dose (oxygen creep), even when properly titrated, signals disease progression, not inadequate dosing. When rising FiO₂ fails to lift SpO₂ → clinical review and document.",
+        "Variations/Common mistakes/conceptual focus": "Treating oxygen as a standalone treatment rather than a diagnostic indicator; escalating flow repeatedly without recognising that oxygen creep signals clinical deterioration, not therapeutic failure",
+        "Screen type": "Text and interactive hotspot graphic",
+        "Media required": "Interactive hotspot over graph of SpO₂, ventilation and perfusion index; hotspots show increasing dose with device specs and worsening V/Q ratio over time",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Section T; Barnett et al. (2022) Section 5; Beasley et al. (2019) Section: Delayed Recognition of Deterioration",
+        "Learning outcome addressed": "LO2",
+        "Estimated seat time": "0:25–0:30"
+      },
+      {
+        "screen_title": "6.5 Planning to Wean: What Failure to Wean Tells You",
+        "screen_content": "RR and supportive muscles improved, HR improved (description of prior upward titration and device change while underlying pathology is treated). Recovery seems imminent. Dr Saldana agrees to wean from oxygen. Downward titration demonstrated via interactive graphic showing steady SpO₂ through initial step-downs, then SpO₂ falls at a critical compensatory threshold point, signalling incomplete recovery. Hotspot returns Joe to the lowest effective flow; document the failed attempt and Dr Saldana review before further adjustments.",
+        "Variations/Common mistakes/conceptual focus": "Mistaking weaning failure as inaccurate titrating rather than a marker of unresolved pathology",
+        "Screen type": "Text and interactive hotspot graphic",
+        "Media required": "Interactive hotspot graph plotting SpO₂, ventilation, and perfusion index (PI). SpO₂ holds target through initial step-downs, then drops once FiO₂ crosses lowest or second-lowest dose, unmasking a persistent shunt",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017) Section T; Barnett et al. (2022) Section 4; Beasley et al. (2019) Section: Titration of Oxygen Therapy",
+        "Learning outcome addressed": "LO2",
+        "Estimated seat time": "0:25–0:30"
+      },
+      {
+        "screen_title": "6.6 Monitoring and Troubleshooting During Oxygen Therapy",
+        "screen_content": "Text starts with same checks as oxygen initiation (patency, etc.) at all observational points and whenever devices are changed. Device selection and maintenance must constantly balance FiO₂ minimum flow rates (to avoid rebreathing risk), delivery, fit accuracy, and tolerance. Checklist of non-device physiological obs for constant monitoring (comfort, tolerance, speech continuity). Successful weaning: Joe's SpO₂ is stable at 94% on a simple face mask at 5 L/min, but he reports discomfort and subsequent anxiety → hyperventilation. Describes impact on SpO₂ delaying weaning until comfort is restored via alternative device. Joe is discharged.",
+        "Variations/Common mistakes/conceptual focus": "Assuming stable SpO₂ justifies continuing a poorly tolerated or sub-minimum flow device; separating comfort from physiological need",
+        "Screen type": "Text; Bullet list",
+        "Media required": "Not applicable",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017); Barnett et al. (2022) Section 4; Beasley et al. (2019) Section: Titration of Oxygen Therapy",
+        "Learning outcome addressed": "LO2",
+        "Estimated seat time": "0:25–0:30"
+      }
+    ]
+  },
+  {
+    "topic_id": 6,
+    "topic": "7. Clinical Review and Escalation in Oxygen Therapy",
+    "screens": [
+      {
+        "screen_title": "7.1 Standard and Immediate Clinical Review Points in Oxygen Therapy",
+        "screen_content": "Labelled graphic interactive timeline of clinical review points in Joe's patient journey. Markers at initiation, flow adjustment, titration up/down, and at least one immediate/emergency clinical review point for oxygen creep and other high-risk triggers. Summary block of general points for clinical review, emphasising that review is required at initiation, device change, titration up and down, weaning, and at high-risk trigger points.",
+        "Variations/Common mistakes/conceptual focus": "Delaying review after initiating oxygen or adjusting flow; assuming stable SpO₂ negates the need for escalation",
+        "Screen type": "Text; Labelled graphic",
+        "Media required": "Horizontal timeline graphic tracing Joe's presentation to discharge, with escalation icons marking each oxygen initiation, flow change, and high-risk trigger point",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017); Barnett et al. (2022)",
+        "Learning outcome addressed": "LO2",
+        "Estimated seat time": "0:25–0:30"
+      }
+    ]
+  },
+  {
+    "topic_id": 7,
+    "topic": "8. Documentation in Oxygen Therapy",
+    "screens": [
+      {
+        "screen_title": "8.1 Documentation in Oxygen Therapy",
+        "screen_content": "In the eMR, treat oxygen as a prescribed medication. Document the following at every review: indication & target saturation range; delivery device & flow rate (or calculated FiO₂); clinical response (SpO₂ trend, observational notes); escalation rationale & notified clinician. Oxygen order sentence and order details will include some details; progress notes will capture the rest.",
+        "Variations/Common mistakes/conceptual focus": "Treating oxygen as a standing order rather than a dynamic, time-bound prescription; omitting escalation triggers or notified clinicians",
+        "Screen type": "Text plus screenshots of Joe's documentation, order sentences, etc.",
+        "Media required": "Not applicable",
+        "Resources required/references/consultation": "O'Driscoll et al. (2017); Barnett et al. (2022)",
+        "Learning outcome addressed": "LO2",
+        "Estimated seat time": "0:20–0:25"
+      }
+    ]
+  }
 ]
