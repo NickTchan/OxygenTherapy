@@ -1,0 +1,110 @@
+# Oxygen Therapy in Acute Care – Content Structure Plan
+
+## Version Control
+| # | Purpose/Notes | Created by | Date |
+|---|---|---|---|
+| 0.1 | Draft by Nick, then CEA review and SID review / Rough draft of Rise module content | Nick Tchan | 18/02/2026 |
+| 0.2 | Reviewed, ready for SME review | Nick Tchan | 21/04/2026 |
+| 0.3 | SME feedback incorporated | Nick Tchan | 30/04/2026 |
+| 0.4 | Update following Trish W review | Nick Tchan | 04/05/2026 |
+| 0.5 | All comments removed from document, ready for Director review | Nick Tchan | 08/05/2026 |
+
+---
+
+## Learning Outcomes
+*The aim of this module is for you to be able to:*
+1. **Assess** the need to initiate oxygen therapy by evaluating clinical indications, physiological risks, and target saturation ranges.
+2. **Select** the appropriate oxygen delivery device and initial flow rate based on patient-specific factors.
+3. **Titrate** oxygen flow and adjust appropriate delivery devices to maintain prescribed target saturations.
+4. **Analyse** unexpected changes in oxygen saturation by distinguishing device and measurement issues from true clinical deterioration.
+5. **Initiate** clinical review escalation during standard escalation points and moments of clinical concern.
+
+---
+
+## Content Structure Plan
+**Estimated Duration:** 25–35 minutes  
+**Source Structure:** `Content Structure Plan v0.5` (enriched with detailed content, references, and media notes from the RISE Long Version)
+
+### Topic One: Welcome (Est. 1 min)
+| Screen Title | Screen Content | Variations / Common Mistakes | Screen Type | Media / Resources Required | Learning Outcome(s) | Seat Time |
+|---|---|---|---|---|---|---|
+| **Overview** | Overview of what the module covers: Who is this module for? What will I learn? How long will it take? How do I complete this module? | Not applicable | Text on image, Paragraph with subheading, Accordion, Continue button | Hero image 1 (Joe & clinician) | N/A | 0.30 – 1.00 |
+| **How to navigate this module (Desktop)** | Standardised content across modules. | Not applicable | Paragraph with subheading, Labelled graphic | Standard graphic | N/A | 0.30 – 1.00 |
+| **How to navigate this module (Mobile)** | Standard content. | Not applicable | Paragraph with subheading, Labelled graphic | Standard graphic | N/A | 0.20 – 0.30 |
+| **Note** | Note warning that this module contains audio. | Not applicable | Note, Video | Standard Audio Sound | N/A | 0.20 – 0.30 |
+| **Pre-Test Explanation** *(Added from RISE version)* | Explanation of why they're doing the pre-testing activity. Based on `Prequestioning and Pretesting Effects` (Pan & Carpenter, 2023). | Not applicable | Paragraph with subheading | N/A | N/A | 0.15 – 0.20 |
+
+### Topic Two: Introduction to Oxygen Therapy (Est. 6 mins)
+| Screen Title | Screen Content | Variations / Common Mistakes | Screen Type | Media / Resources Required | Learning Outcome(s) | Seat Time |
+|---|---|---|---|---|---|---|
+| **Introducing Joe** | Introduces "Joe", the case study character used throughout. Sets the scene by asking learners to reflect on whether to initiate oxygen upon presentation. Represents learners as nurses/JMOs. Frames all subsequent explanations. Key message: This case study is the "frame" for all materials. | Not applicable | Timeline scenario | Hero image 2, BTF image shot 1 | LO1 | 1.00 – 1.30 |
+| **The dangers of oxygen without an indication** | Covers physiological risks and addresses incorrect assumptions. Oxygen is a prescribed treatment for *hypoxaemia*, not breathlessness. Explains dangers of hyperoxaemia & hypoxaemia (masks deterioration, worsens V/Q mismatch, precipitates hypercapnia). Key messages: Clear indication required; careful monitoring & titration essential; balance risks. | Oxygen can treat breathlessness. Oxygen is "set and forget." Ignoring dangers of hyper/hypoxaemia. | Note block | N/A | LO1 | 1.00 – 1.30 |
+| **Why oxygen is prescribed like a drug** | Explains: 1. Oxygen is like a drug, 2. Must be prescribed, 3. Target saturation ranges, 4. Pulse oximetry vs ABGs. Accordion continues case study with initiation device, target saturation, and rationale. Key messages: Requires documented target range (not fixed flow); Pulse ox is standard for monitoring/titration; ABGs for specific diagnostic/escalation indications; Initial device/flow must be clinically justified & documented. | SpO₂ is a direct proxy rather than understanding both upper/lower limits matter. "Higher is better" misconception. | Text and accordion | Hero image 3 | LO1, LO2 | 1.30 – 2.00 |
+| **The role of clinical judgement in using oxygen therapy** | Covers different target saturation ranges across clinical profiles. Addresses misconception that a single target applies to all. Rationale for tailoring prescriptions to physiological risks using condition-specific guidelines. Key messages: Tailor to condition/risk; universal targets are inappropriate & increase harm; condition-specific targets ensure safety. | Assuming universal 92–96% target. Treating SpO₂ as "higher is better". Aiming for >96% routinely (risks hyperoxia/masks deterioration). | Text and flip card images | Flip card exercise images | LO4 | 1.00 – 1.30 |
+| **Oxygen as a prescribed medication: getting the dose right** | Covers dynamic prescribing/dosing principles. Flow rate (L/min) ≠ delivered concentration (FiO₂). Patient inspiratory demand dictates device selection. Dynamic dosing & titration based on real-time SpO₂ response. Key messages: Flow ≠ dose; dosing must be dynamic; correct device/flow optimises delivery & minimises respiratory effort. | Equating L/min with FiO₂. Ignoring patient inspiration rate. Not titrating dose to SpO₂ response. | Quote block, List, Timeline (SpO₂ zones & titration steps) | N/A | LO3 | 1.00 – 1.30 |
+
+### Topic Three: Core Concepts in Oxygen Therapy (Est. 4 mins)
+| Screen Title | Screen Content | Variations / Common Mistakes | Screen Type | Media / Resources Required | Learning Outcome(s) | Seat Time |
+|---|---|---|---|---|---|---|
+| **Joe's story continued - Hidden signs of respiratory deterioration** | Joe's condition deteriorates despite "normal" SpO₂ (94%) & elevated RR (26) in yellow zone. Presents visible signs via labelled image. Sets clinical dilemma. Key messages: Deterioration masked by normal saturations; pulse oximetry alone obscures early compromise. | Over-reliance on pulse oximetry as standalone trigger. Delaying review when respiratory effort increases despite normal SpO₂. | Text (scenario format) | Hero image 4, Physical signs of respiratory effort image, BTF shot 2 | LO1 | 1.00 – 1.30 |
+| **Understanding what we are measuring in oxygen therapy** | Explains clinical/physiological limitations of pulse oximetry. SpO₂ & RR alone aren't triggers. SpO₂ is a proxy estimate of arterial oxygenation (SaO₂). Triggers for ABGs. PaCO₂ levels & V/Q mismatch (normal SpO₂ can hide deterioration). Key messages: Normal SpO₂ ≠ adequate tissue oxygenation; ABGs indicated when clinical signs diverge or hypercapnia suspected; recognise V/Q mismatch. | Assuming normal SpO₂ guarantees tissue oxygenation. Delaying ABG when clinical triggers present. Misinterpreting venous gas PaCO₂. Not recognising V/Q mismatch. | Text, Accordion interaction | N/A | LO4 | 1.30 – 2.00 |
+| **When oxygen therapy can cause harm** | Covers physiological harms of inappropriate therapy. Flow escalation → hyperoxaemia. V/Q mismatch & rebreathing risks. Oxygen-induced hypercapnia. Evidence-based management strategies. Key messages: Escalating without reassessing ventilation increases V/Q mismatch, CO₂ retention, oxygen creep. Hypercapnia requires strategy change, not continued escalation. Titrate along pathways, escalate review by physiological response. | Overlooking hypercapnia signs. Escalating flow without reassessing ventilation/rebreathing risk or checking for oxygen creep. | Tab interaction (3 risk patterns + mini vignettes) | N/A | LO1, LO5 | 1.30 – 2.00 |
+
+### Topic Four: Monitoring Oxygen Therapy (Est. 3 mins)
+| Screen Title | Screen Content | Variations / Common Mistakes | Screen Type | Media / Resources Required | Learning Outcome(s) | Seat Time |
+|---|---|---|---|---|---|---|
+| **Joe's story continued – Oxygen initiation** | Frames clinical decision trigger (SpO₂ < 93%). Reaffirms hypoxaemia as specific trigger; other signs warrant observation/review. Sets up setup oversights section. Prepares for safe initiation protocols. Key messages: Hypoxaemia is primary trigger; accurate oximetry requires verifying probe placement, perfusion, positioning; distinguish observation triggers from initiation thresholds. | Not confirming probe position/perfusion. Not considering patient movement. Not understanding SpO₂ is primary trigger. | Text with image | Hero image 5, BTF shot 3 | LO1 | 1.00 – 1.30 |
+| **Initiating oxygen therapy** | Covers correct procedural sequence. Immediate treatment once clinical triggers are present. Clinical review & documentation must occur ASAP but not delay care. Key messages: Initiation is time-critical; review/documentation follow immediately after initiation. | Waiting too long when observations suggest hypoxaemia. Thinking clinical review is necessary *before* initiation (it should occur ASAP, not delay treatment). | Text, Matching activity | N/A | LO1 | 1.00 – 1.30 |
+| **Maintaining the integrity of observations** | Covers principles of maintaining observation integrity. Impact of probe placement, perfusion, movement, breathing patterns. Avoid coaching patients to "breathe up". SpO₂ alone isn't the single management signal. Key messages: Readings only reliable when signal integrity, perfusion, placement verified (Low PI = issue). Never coach artificial breathing. Maintain integrity via continuous validation & comprehensive assessment. | Over-reliance on numerical values without verifying signal quality/physiological context. | Text, Image carousel or flip cards | Real-life object assets | LO4 | 1.00 – 1.30 |
+
+### Topic Five: Principles of Titration (Est. 7 mins)
+| Screen Title | Screen Content | Variations / Common Mistakes | Screen Type | Media / Resources Required | Learning Outcome(s) | Seat Time |
+|---|---|---|---|---|---|---|
+| **Joe's story continued – No improvement despite oxygen** | Persistent hypoxaemia despite initial therapy. Creates decision point for adjustment. Key messages: Persistent hypoxaemia = trigger for titration & reassessment. Unchanged delivery prolongs hypoxic stress & obscures progression. Recognising non-responsiveness requires evaluating delivery efficacy, context, & escalation pathways. | Understanding concept of titration if patient isn't responsive. | Text with image | Hero image 6, BTF shot 4 | LO3 | 1.00 – 1.30 |
+| **Why we titrate oxygen and how we start** | Target range not reached → consider titration. Verify device integrity before dose adjustment. Distinguish physiological deterioration vs measurement-related SpO₂ drops. Key messages: Static/declining SpO₂ ≠ automatic physiological decline. Exclude device/signal/confounding factors first. | Jumping to titration/escalation without verifying equipment patency, seal, placement. Assuming static SpO₂ = true decline when it may be kinked tube, poor fit, or vasoconstriction. | Table, Flip cards (T/F KC), Text | Real-life object assets | LO3, LO4 | 1.00 – 1.30 |
+| **Titrating up and down** | Explores clinical implementation of stepwise titration. Structured device review, observation intervals, clinical judgement. Covers stepwise protocols & common errors. Key messages: Titration must follow protocol with defined intervals to prevent overshooting. Incorrect titration increases hyperoxaemia risk & delays deterioration recognition. | Large unmeasured flow jumps overshooting target. Not waiting for physiological equilibrium window. Failing to recognise ≥3% rapid drop overrides standard wait time. | Text, Image carousel, MCSA KC | Real-life object assets | LO3 | 1.00 – 1.30 |
+| **What does the need to titrate tell us?** | Discusses "oxygen creep" & differentiating dosing adjustments from disease progression. Creep often masks deterioration. SpO₂ & PI can remain high while perfusion is low. Oxygen as dynamic diagnostic indicator. Key messages: Creep = warning sign of progression/deterioration, not resolved by more flow. Treat oxygen as diagnostic indicator. Repeated escalation without root cause increases risk. Identify creep → trigger reassessment. | Treating oxygen as standalone treatment. Escalating flow repeatedly without recognising creep signals deterioration/disease progression. | Texts, Interactive hotspot graphic | V/Q mismatch & oxygen creep hotspot graph ("leaky bucket" analogy) | LO4, LO5 | 1.30 – 2.00 |
+| **The proper use of high flow oxygen** | Covers HFNC & top of escalation pathway. HFNC as active respiratory support. Features: integrated humidification, independent FiO₂ control. Brief mention of NIV/IMV when HFNC limits reached. Key messages: HFNC transitions therapy from supplementation to active support. Flow & FiO₂ independently controlled. | Thinking HFNC is just oxygen delivery (it's active respiratory support). Not separating FiO₂ from flow rates. | Text, Note block | Real-life object assets | LO2, LO3 | 1.00 – 1.30 |
+| **Planning to wean: what failure to wean tells you** | Frames Joe's trajectory when weaning fails. Focuses on diagnostic implications of prolonged dependence. Key messages: Failed weaning = diagnostic trigger for underlying pathology, not a titration problem requiring more flow. | Mistaking weaning failure as inaccurate titration rather than marker of unresolved pathology. | Texts, Interactive hotspot graphic | BTF shot 5, Weaning failure threshold graph | LO4 | 1.30 – 2.00 |
+| **Monitoring and troubleshooting during oxygen therapy** | Addresses monitoring/troubleshooting during weaning. Ongoing verification of device & signal integrity. Key messages: Verify device tolerance, fit, signal accuracy before decisions. Patient comfort impacts reliability; poor tolerance produces misleading readings. | Assuming stable SpO₂ justifies continuing poorly tolerated/sub-minimum flow device. Separating comfort from physiological need. | Text, Bullet list | N/A | LO4 | 0.30 – 1.00 |
+
+### Topic Six: Clinical Review and Escalation in Oxygen Therapy (Est. 2 mins)
+| Screen Title | Screen Content | Variations / Common Mistakes | Screen Type | Media / Resources Required | Learning Outcome(s) | Seat Time |
+|---|---|---|---|---|---|---|
+| **Standard and immediate clinical review points in oxygen therapy** | Interactive timeline mapping Joe's journey, highlighting critical review points & escalation triggers. Covers decision points for reassessment/titration/device changes. Specific physiological markers, delivery parameters, thresholds (including BTF triggers). Interaction of review, titration, & response. Key message: Oxygen therapy is a process requiring careful clinical decision-making within scope. Patient-centred, monitored, vital in acute care. | Delaying review after initiating/adjusting flow. Assuming stable SpO₂ negates need for escalation. | Text, Labelled graphic | Hero image 7, Joe's clinical journey timeline | LO4 | 1.30 – 2.00 |
+
+### Topic Seven: Documentation in Oxygen Therapy (Est. 1 min)
+| Screen Title | Screen Content | Variations / Common Mistakes | Screen Type | Media / Resources Required | Learning Outcome(s) | Seat Time |
+|---|---|---|---|---|---|---|
+| **Key documentation requirements** | Mandatory documentation for prescriptions & escalation events. Key messages: All aspects require documentation for continuity/handover. Elements: target saturation range, device type, dose/flow, clinical reasoning, notified clinicians, decision pathways. | Treating oxygen as standing order vs dynamic, time-bound prescription. Omitting escalation triggers or notified clinicians. | Text and image | Hero image 8, BTF shot 6 | LO1, LO2, LO3, LO5 | 0.30 – 1.00 |
+
+### Topic Eight: Summary (Est. 1 min)
+| Screen Title | Screen Content | Variations / Common Mistakes | Screen Type | Media / Resources Required | Learning Outcome(s) | Seat Time |
+|---|---|---|---|---|---|---|
+| **Summary** | Review of learned concepts. Key messages: Oxygen is a prescribed medication with condition-specific targets. Initiate only with clear indication; continuously titrate to avoid hypo/hyperoxaemia. Safe titration requires stepwise adjustments & rigorous monitoring verification. Oxygen creep & weaning failure = diagnostic indicators of unresolved pathology/V/Q mismatch requiring reassessment, not flow escalation. Structured review, defined triggers, & dynamic documentation are mandatory at every stage. | Not applicable | Text | Hero image 9 | LO1, LO2, LO3, LO4, LO5 | 1.00 – 1.30 |
+
+---
+
+## References
+* Pan & Carpenter (2023). *Prequestioning and Pretesting Effects: A Review of Empirical Research, Theoretical Perspectives, and Implications for Educational Practice*. Educational Psychology Review, 35, Article 97.
+* Barnett, A. G., et al. (2022). Thoracic Society of Australia and New Zealand position statement on acute oxygen use in adults: ‘Swimming between the flags’. *Respirology*, 27(4), 262-276.
+* Barnett, A. G., et al. (2022). Oxygen Therapy in Acute Illness: A Practical Guide for Clinicians. *British Journal of Hospital Medicine*, 83(1), 12–20.
+* Beasley, R., Chien, J., Douglas, J., et al. (2015). TSANZ oxygen guidelines for adults. *Respirology*, 20, 1182-1191.
+* Beasley, R., Mackle, D., & Young, P. (2019). Oxygen: a new look at an old therapy. *Journal of the Royal Society of New Zealand*, 49(2), 126-142.
+* O'Driscoll, B. R., et al. (2017). British Thoracic Society Guideline for oxygen use in adults in healthcare and emergency settings. *BMJ Open Respiratory Research*, 4(1), e000170.
+
+---
+
+## Calculating Module Seat Time
+| Screen Type | Average Number of Words | Approximate Duration (Minutes) |
+|---|---|---|
+| Text and image | 150 | 1 |
+| Text and image (module/topic title screens) | 1 - 5 | 3 seconds |
+| Click and reveal (with on screen popups) | 270 | 1.5 |
+| Click and reveal (with FULL screen popups) | 400 | 2.5 |
+| Multi choice question (including feedback popups) | 220 | 1.5 |
+| Time based media (video, audio, animation) | N/A | Total media length |
+
+**Estimation Logic:**
+* **Self-paced reading:** Average adult reading speed = `220 wpm`. Minimum completion time is calculated, then an **extra 25%** is added to account for consideration, reviewing answers, and navigating back.
+* **Pre-recorded voiceover:** Average speaking speed = `120 wpm`. An **extra 10%** is allowed for natural pauses and breaks.
